@@ -36,7 +36,57 @@ body{
 
 
 /* OUR-MENTORS-SECTİON BAŞLADI */
-
+    /* Mentorlar bölümü arka plan ve genel stil ayarları */
+    #mentors {
+        background-color: #121212; /* Koyu arka plan rengi */
+        color: #ffffff; /* Beyaz metin rengi */
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px 20px;
+    }
+    /* İçeriği merkeze almak için kullanılan kapsayıcı */
+    .mentors-container {
+        max-width: 1440px;
+        margin: auto;
+    }
+    /* Başlık stili */
+    h2 .mentor-head {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    /* Vurgulanan kelimenin rengi */
+    .highlight {
+        color: #c3a18a;
+    }
+    /* Mentor kartlarını yatay hizalamak için kullanılan flex container */
+    .mentors {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap; /* Küçük ekranlarda uyumlu olması için */
+    }
+    /* Her bir mentor kartı */
+    .mentor {
+        text-align: center;
+    }
+    /* Mentor fotoğrafları */
+    .mentor img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%; /* Daire şeklinde görüntüleme */
+        object-fit: cover;
+        border: 4px solid #ffffff;
+    }
+    /* Mentor isimleri */
+    .mentor h3 {
+        margin-top: 10px;
+        font-size: 1.2em;
+    }
+    /* Mentor deneyim bilgileri */
+    .mentor p {
+        font-size: 0.9em;
+        color: #aaa; /* Gri tonlarında metin */
+    }
 /* OUR-MENTORS-SECTİON BİTTİ */
 
 
