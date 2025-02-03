@@ -279,7 +279,6 @@ body{
     #mentors {
         background-color: #121212; /* Koyu arka plan rengi */
         color: #ffffff; /* Beyaz metin rengi */
-        font-family: Arial, sans-serif;
         text-align: center;
         padding: 50px 20px;
     }
@@ -293,6 +292,7 @@ body{
         font-size: 48px;
         margin-bottom: 20px;
         text-align:left;
+        font-weight:500;
     }
     /* Vurgulanan kelimenin rengi */
     .highlight {
@@ -315,17 +315,18 @@ body{
         height: 120px;
         border-radius: 50%; /* Daire şeklinde görüntüleme */
         object-fit: cover;
-        border: 4px solid #ffffff;
     }
     /* Mentor isimleri */
     .mentor h3 {
         margin-top: 10px;
         font-size: 28px;
+        font-weight:500;
     }
     /* Mentor deneyim bilgileri */
     .mentor p {
         font-size: 14px;
-        color: #aaa; /* Gri tonlarında metin */
+        color: #aaa;
+        font-weight:400;
     }
 /* OUR-MENTORS-SECTİON BİTTİ */
 
