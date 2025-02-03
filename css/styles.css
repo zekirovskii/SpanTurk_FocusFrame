@@ -42,8 +42,7 @@ body{
         color: #ffffff; /* Beyaz metin rengi */
         font-family: Arial, sans-serif;
         text-align: center;
-        padding-right: 123px;
-        padding-left: 123px;
+        padding: 150px 100px 150px 100px;
     }
     /* İçeriği merkeze almak için kullanılan kapsayıcı */
     .mentors-container {
@@ -64,7 +63,7 @@ body{
     .mentors {
         display: flex;
         justify-content: center;
-        gap: 30px;
+        gap: 100px;
         flex-wrap: wrap; /* Küçük ekranlarda uyumlu olması için */
     }
     /* Her bir mentor kartı */
@@ -73,8 +72,8 @@ body{
     }
     /* Mentor fotoğrafları */
     .mentor img {
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
         border-radius: 50%; /* Daire şeklinde görüntüleme */
         object-fit: cover;
         border: 4px solid #ffffff;
