@@ -304,7 +304,7 @@ body{
     .mentors {
         display: flex;
         justify-content: center;
-        gap: 30px;
+        gap: 100px;
         flex-wrap: wrap; /* Küçük ekranlarda uyumlu olması için */
     }
     /* Her bir mentor kartı */
