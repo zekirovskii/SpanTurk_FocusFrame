@@ -280,17 +280,19 @@ body{
         background-color: #121212; /* Koyu arka plan rengi */
         color: #ffffff; /* Beyaz metin rengi */
         text-align: center;
-        margin: 0 100px 150px 100px;
     }
     /* İçeriği merkeze almak için kullanılan kapsayıcı */
     .mentors-container {
         max-width: 1440px;
         margin: auto;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     /* Başlık stili */
     .mentor-head {
         font-size: 48px;
         margin-bottom: 20px;
+        margin-top: 0;
         text-align:left;
         font-weight:500;
     }
@@ -311,8 +313,8 @@ body{
     }
     /* Mentor fotoğrafları */
     .mentor img {
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
         border-radius: 50%; /* Daire şeklinde görüntüleme */
         object-fit: cover;
     }
