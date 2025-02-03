@@ -1,182 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FocusFrame</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap"
-        rel="stylesheet">
-    
-</head>
-<body>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- HEADER BAŞLADI-->
-    
-        <div class="hero_container">
-        <header class="header">
-                <div class="nav_container">
-                    <a class="logo-link" href="">Focus.Frame</a>
-                    <nav class="header_nav">
-                        <ul class="nav_list">
-                            <li class="nav-item">
-                                <a href="">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="">Our Courses</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="">Our Mentors</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="">Reviews</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="">Contacts</a>
-                            </li>
-                        </ul>
-                    </nav>
-                
-                </div>
-                <div class="sign_button">
-                    <a class="sign_a" href="">SIGN UP</a>
-                </div>
-        </header>
-        <section class="hero_section">
 
-            <div class="discover_cont">
-                <h1 class="discover_title">Discover the magic of <span class="photo_span">photography </span>in our school</h1>
-                <p class="discover_p">Our photography school offers an unforgettable journey, where you can learn the basics of composition, master technical
-                skills, translate your unique ideas.</p>
-                <div class="happy_cont">
-                    <ul class="happy-list">
-                        <li class="happy-item">
-                            <img srcset="./images/girl.jpg 1x, ./images/girl@2x.jpg 2x" alt="girl1" width="54px" height="54px">
-                        </li>
-                        <li class="happy-item">
-                            <img srcset="./images/boy.jpg 1x, ./images/boy@2x.jpg 2x" alt="boy" width="54px" height="54px">
-                        </li>
-                        <li class="happy-item">
-                            <img srcset="./images/secondgirl.jpg 1x, ./images/secondgirl@2x.jpg 2x" alt="secondgirl" width="54px" height="54px">
-                        </li>
-                    </ul>
-                    <div class="student_text">
-                        <a class="students_p" href="">Our happy students</a>
-                        <div class="clearfix pbs">
-                            <svg width="24" height="14" class="icon icon-arrowone">
-                                <use xlink:href="./images/symbol-defs.svg#icon-arrowone"></use>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="star_rew">
-                        <div class="star_back">
-                            <svg width="20" height="19" class="icon icon-herostar" fill="none" stroke="#000" stroke-width="1.5">
-                                <use xlink:href="./images/symbol-defs.svg#icon-star"></use>
-                            </svg>
-                        </div>
-                        <div class="rew_div" >
-                            <p class="rew_p">Reviews</p>
-                            <p class="rew_numb">+1500</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-
-            <div class="cameramen_cont">
-                <img srcset="./images/cameramen.png 1x, ./images/cameramen@2x.png 2x" alt="cameramen">
-            </div>
-
-            
-        </section>
-
+    <div class="hero_container">
+      <header class="header">
+        <div class="nav_container">
+          <a class="logo-link" href="">Focus.Frame</a>
+          <nav class="header_nav">
+            <ul class="nav_list">
+              <li class="nav-item">
+                <a href="">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="">Our Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="">Our Mentors</a>
+              </li>
+              <li class="nav-item">
+                <a href="">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-    
+        <div class="sign_button">
+          <a class="sign_a" href="">SIGN UP</a>
+        </div>
+      </header>
+      <section class="hero_section">
+        <div class="discover_cont">
+          <h1 class="discover_title">
+            Discover the magic of <span class="photo_span">photography </span>in
+            our school
+          </h1>
+          <p class="discover_p">
+            Our photography school offers an unforgettable journey, where you
+            can learn the basics of composition, master technical skills,
+            translate your unique ideas.
+          </p>
+          <div class="happy_cont">
+            <ul class="happy-list">
+              <li class="happy-item">
+                <img
+                  srcset="./images/girl.jpg 1x, ./images/girl@2x.jpg 2x"
+                  alt="girl1"
+                  width="54px"
+                  height="54px"
+                />
+              </li>
+              <li class="happy-item">
+                <img
+                  srcset="./images/boy.jpg 1x, ./images/boy@2x.jpg 2x"
+                  alt="boy"
+                  width="54px"
+                  height="54px"
+                />
+              </li>
+              <li class="happy-item">
+                <img
+                  srcset="
+                    ./images/secondgirl.jpg    1x,
+                    ./images/secondgirl@2x.jpg 2x
+                  "
+                  alt="secondgirl"
+                  width="54px"
+                  height="54px"
+                />
+              </li>
+            </ul>
+            <div class="student_text">
+              <a class="students_p" href="">Our happy students</a>
+              <div class="clearfix pbs">
+                <svg width="24" height="14" class="icon icon-arrowone">
+                  <use
+                    xlink:href="./images/symbol-defs.svg#icon-arrowone"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+            <div class="star_rew">
+              <div class="star_back">
+                <svg
+                  width="20"
+                  height="19"
+                  class="icon icon-herostar"
+                  fill="none"
+                  stroke="#000"
+                  stroke-width="1.5"
+                >
+                  <use xlink:href="./images/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </div>
+              <div class="rew_div">
+                <p class="rew_p">Reviews</p>
+                <p class="rew_numb">+1500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cameramen_cont">
+          <img
+            srcset="./images/cameramen.png 1x, ./images/cameramen@2x.png 2x"
+            alt="cameramen"
+          />
+        </div>
+      </section>
+    </div>
 
     <!-- HEADER BİTTİ-->
 
-
     <!-- HERO-SECTİON BAŞLADI-->
-    
+
     <!-- HERO-SECTİON BİTTİ-->
 
-
-
     <!-- MASTER-SECTİON BAŞLADI-->
-    
+
     <!-- MASTER-SECTİON BİTTİ-->
 
-
     <!-- ABOUT-SECTİON BAŞLADI-->
-    
+
     <!-- ABOUT-SECTİON BİTTİ-->
 
-
-
     <!-- OUR-COURSES-SECTİON BAŞLADI-->
-    
+    <section id="courses-section">
+      <div class="courses-container">
+        <div class="courses-header">
+          <h2 class="courses-head">
+            Our <span class="courses-span">Courses</span>
+          </h2>
+          <p class="courses-head-text">
+            At our photography school, we offer a variety of courses that cover
+            all aspects of this fascinating art. Regardless of your experience
+            or skill level, we have courses to suit your needs and goals.
+          </p>
+        </div>
+        <div class="course-block">
+          <!--İlk Kurs Bloğu-->
+          <div class="course-card">
+            <div class="course-number-area">
+              <p class="course-number">01</p>
+              <div class="course-icon">
+              <svg width="20" height="20" class="icon icon-arrowtwo">
+                <use
+                  xlink:href="./images/symbol-defs.svg#icon-arrowtwo"
+                ></use>
+              </svg>
+              </div>
+            </div>
+            <h3 class="course-card-title">Basics of photography</h3>
+            <p class="course-card-text">
+              During this course, you will be able to familiarize yourself with
+              different types of cameras, learn the basics of composition.
+            </p>
+          </div>
+          <!--İkinci Kurs Bloğu-->
+
+          <div class="course-card">
+            <div class="course-number-area">
+              <p class="course-number">02</p>
+              <div class="course-icon">
+                <svg width="20" height="20" class="icon icon-arrowtwo">
+                  <use
+                    xlink:href="./images/symbol-defs.svg#icon-arrowtwo"
+                  ></use>
+                </svg>
+                </div>
+            </div>
+            <h3 class="course-card-title">Landscape photography</h3>
+            <p class="course-card-text">
+              In this course, you'll learn how to choose the right angles, frame
+              landscapes, and create depth and perspective in your images.
+            </p>
+          </div>
+          <!--Üçüncü Kurs Bloğu-->
+
+          <div class="course-card">
+            <div class="course-number-area">
+              <p class="course-number">03</p>
+              <div class="course-icon">
+                <svg width="20" height="20" class="icon icon-arrowtwo">
+                  <use
+                    xlink:href="./images/symbol-defs.svg#icon-arrowtwo"
+                  ></use>
+                </svg>
+                </div>
+            </div>
+            <h3 class="course-card-title">Portrait photography</h3>
+            <p class="course-card-text">
+              During this course, you will learn to choose the right lighting,
+              reproduce the mood and expressions on the faces of the models.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- OUR-COURSES-SECTİON BİTTİ-->
 
-
     <!-- OUR-MENTORS-SECTİON BAŞLADI-->
-<section id="mentors">
-    <div class="mentors-container">
-        <h2 class="mentor-head">Our <span class="mentors-highlight">Mentors</span></h2>
+    <section id="mentors">
+      <div class="mentors-container">
+        <h2 class="mentor-head">
+          Our <span class="mentors-highlight">Mentors</span>
+        </h2>
         <div class="mentors">
-            <!-- İlk mentor bilgisi -->
-            <div class="mentor">
-                <img src="images/mentor-emilia.jpg" alt="Emilia Smith">
-                <h3>Emilia Smith</h3>
-                <p>15 years of experience</p>
-            </div>
-            <!-- İkinci mentor bilgisi -->
-            <div class="mentor">
-                <img src="images/mentor-alex.jpg" alt="Alex Lebedev">
-                <h3>Alex Lebedev</h3>
-                <p>3.5 years of experience</p>
-            </div>
-            <!-- Üçüncü mentor bilgisi -->
-            <div class="mentor">
-                <img src="images/mentor-mia.jpg" alt="Mia Dubrovksa">
-                <h3>Mia Dubrovksa</h3>
-                <p>20 years of experience</p>
-            </div>
-            <!-- Dördüncü mentor bilgisi -->
-            <div class="mentor">
-                <img src="images/mentor-eliot.jpg" alt="Eliot Kovalev">
-                <h3>Eliot Kovalev</h3>
-                <p>40 years of experience</p>
-            </div>
+          <!-- İlk mentor bilgisi -->
+          <div class="mentor">
+            <img src="images/mentor-emilia.jpg" alt="Emilia Smith" />
+            <h3>Emilia Smith</h3>
+            <p>15 years of experience</p>
+          </div>
+          <!-- İkinci mentor bilgisi -->
+          <div class="mentor">
+            <img src="images/mentor-alex.jpg" alt="Alex Lebedev" />
+            <h3>Alex Lebedev</h3>
+            <p>3.5 years of experience</p>
+          </div>
+          <!-- Üçüncü mentor bilgisi -->
+          <div class="mentor">
+            <img src="images/mentor-mia.jpg" alt="Mia Dubrovksa" />
+            <h3>Mia Dubrovksa</h3>
+            <p>20 years of experience</p>
+          </div>
+          <!-- Dördüncü mentor bilgisi -->
+          <div class="mentor">
+            <img src="images/mentor-eliot.jpg" alt="Eliot Kovalev" />
+            <h3>Eliot Kovalev</h3>
+            <p>40 years of experience</p>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
     <!-- OUR-MENTORS-SECTİON BİTTİ-->
 
-
-
-
     <!-- SIGN-UP-SECTİON BAŞLADI-->
-    
+
     <!-- SIGN-UP-SECTİON BİTTİ-->
 
-
     <!-- REVİEWS-SECTİON BAŞLADI-->
-    
+
     <!-- REVİEWS-SECTİON BİTTİ-->
 
-
-
     <!-- FOOTER-SECTİON BAŞLADI-->
-    
-    <!-- FOOTER-SECTİON BİTTİ-->
 
-    
-    
-</body>
+    <!-- FOOTER-SECTİON BİTTİ-->
+  </body>
 </html>
