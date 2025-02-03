@@ -280,7 +280,7 @@ body{
         background-color: #121212; /* Koyu arka plan rengi */
         color: #ffffff; /* Beyaz metin rengi */
         text-align: center;
-        padding: 50px 20px;
+        margin: 0 100px 150px 100px;
     }
     /* İçeriği merkeze almak için kullanılan kapsayıcı */
     .mentors-container {
@@ -288,14 +288,14 @@ body{
         margin: auto;
     }
     /* Başlık stili */
-    h2 .mentor-head {
+    .mentor-head {
         font-size: 48px;
         margin-bottom: 20px;
         text-align:left;
         font-weight:500;
     }
     /* Vurgulanan kelimenin rengi */
-    .highlight {
+    .mentors-highlight {
         color: #c3a18a;
     }
     /* Mentor kartlarını yatay hizalamak için kullanılan flex container */
