@@ -290,7 +290,7 @@ body{
     }
     /* Başlık stili */
     h2 .mentor-head {
-        font-size: 2em;
+        font-size: 48px;
         margin-bottom: 20px;
         text-align:left;
     }
@@ -320,11 +320,11 @@ body{
     /* Mentor isimleri */
     .mentor h3 {
         margin-top: 10px;
-        font-size: 1.2em;
+        font-size: 28px;
     }
     /* Mentor deneyim bilgileri */
     .mentor p {
-        font-size: 0.9em;
+        font-size: 14px;
         color: #aaa; /* Gri tonlarında metin */
     }
 /* OUR-MENTORS-SECTİON BİTTİ */
