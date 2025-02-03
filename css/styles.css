@@ -42,7 +42,8 @@ body{
         color: #ffffff; /* Beyaz metin rengi */
         font-family: Arial, sans-serif;
         text-align: center;
-        padding: 50px 20px;
+        padding-right: 123px;
+        padding-left: 123px;
     }
     /* İçeriği merkeze almak için kullanılan kapsayıcı */
     .mentors-container {
@@ -51,7 +52,7 @@ body{
     }
     /* Başlık stili */
     h2 .mentor-head {
-        font-size: 2em;
+        font-size: 48px;
         margin-bottom: 20px;
         text-align:left;
     }
@@ -80,12 +81,12 @@ body{
     }
     /* Mentor isimleri */
     .mentor h3 {
-        margin-top: 10px;
-        font-size: 1.2em;
+        margin-top: 16px;
+        font-size: 28px;
     }
     /* Mentor deneyim bilgileri */
     .mentor p {
-        font-size: 0.9em;
+        font-size: 14px;
         color: #aaa; /* Gri tonlarında metin */
     }
 /* OUR-MENTORS-SECTİON BİTTİ */
