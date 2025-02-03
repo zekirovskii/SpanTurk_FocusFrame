@@ -82,6 +82,7 @@ body{
     /* Mentor isimleri */
     .mentor h3 {
         margin-top: 16px;
+        margin-bottom:4px;
         font-size: 28px;
     }
     /* Mentor deneyim bilgileri */
