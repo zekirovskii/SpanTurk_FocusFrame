@@ -1,362 +1,424 @@
-body{
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    color: #000;
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #000;
 }
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 /* HEADER BAŞLADI */
 
-    .hero_container {
-            position: relative;
-            background-image:url(../images/grid_back.png);
-            background-repeat: repeat;
-            background-color: #121212;
-            background-size: contain;
-            background-position: center;
-            z-index: 1;
-            padding-bottom: 150px;
-           
-    }
+.hero_container {
+  position: relative;
+  background-image: url(../images/grid_back.png);
+  background-repeat: repeat;
+  background-color: #121212;
+  background-size: contain;
+  background-position: center;
+  z-index: 1;
+  padding-bottom: 150px;
+}
 
-    .header{
-        display: flex;
-        position: relative;
-        z-index: 100;
-        
-    }
-    .nav_container{
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        display: flex;
-        width:982px;
-        align-items: center;
-        margin-left: 100px;
-        margin-top: 20px;
-        margin-right: 20px;
-        margin-bottom: 80px;
-        background-color: #121212;
-    }
-    .nav_list{
-        display: flex;
-        gap: 40px;
-        margin-top: 21px;
-        margin-bottom: 21px;
-        list-style: none;
-        
-    }
-    .nav-item{
-        font-family: "DM Sans", sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        text-transform: uppercase;
-        color: #fff;
-        
-    }
-    .nav-item a{
-        text-decoration: none;
-        color: #fff;
-    }
-    .logo-link{
-        margin-right: 209px;
-        padding-left: 50px;
-        font-size: 16px;
-        font-weight: 700;
-        text-decoration: none;
-        color: #fff;
-    }
-    .sign_button{
-        margin-top: 20px;
-        border-radius: 12px;
-        padding: 16px 84px;
-        width: 239px;
-        height: 60px;
-        background: #fff;
-    }
+.header {
+  display: flex;
+  position: relative;
+  z-index: 100;
+}
+.nav_container {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  display: flex;
+  width: 982px;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  background-color: #121212;
+}
+.nav_list {
+  display: flex;
+  gap: 40px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  list-style: none;
+}
+.nav-item {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.logo-link {
+  margin-right: 209px;
+  padding-left: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+.sign_button {
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 16px 84px;
+  width: 239px;
+  height: 60px;
+  background: #fff;
+}
 
-    .sign_a{
-        font-family: "DM Sans", sans-serif;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 1.55556;
-        text-transform: uppercase;
-        color: #121212;
-        background: #fff;
-        text-decoration: none;
-    }
-
-    
-   
+.sign_a {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.55556;
+  text-transform: uppercase;
+  color: #121212;
+  background: #fff;
+  text-decoration: none;
+}
 
 /* HEADER BİTTİ */
 
-
 /* HERO-SECTİON BAŞLADI */
 
- .hero_section {
-     background-color: #1D1D1D;
-     z-index: 100;
-     width: 1240px;
-     height: 600px;
-     margin-left: 100px;
-     margin-right: 100px;
-     border-radius: 20px;
-    z-index: 100;
- }
+.hero_section {
+  background-color: #1d1d1d;
+  z-index: 100;
+  width: 1240px;
+  height: 600px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+  z-index: 100;
+}
 
- .discover_cont {
-     display: flex;
-     flex-direction: column;
-     padding-top: 80px;
-     margin-right: 130px;
- }
+.discover_cont {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  margin-right: 130px;
+}
 
- .discover_title {
-     font-weight: 500;
-     font-size: 64px;
-     line-height: 1.0625;
-     letter-spacing: -0.04em;
-     color: #fff;
-     width: 563px;
-     margin-left: 50px;
-     margin-top: 0;
-     margin-bottom: 0;
- }
+.discover_title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.0625;
+  letter-spacing: -0.04em;
+  color: #fff;
+  width: 563px;
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
- .discover_p {
-     width: 418px;
-     margin-left: 50px;
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 1.28571;
-     letter-spacing: -0.02em;
-     color: #fff;
-     margin-top: 20px;
-     margin-bottom: 136px;
- }
+.discover_p {
+  width: 418px;
+  margin-left: 50px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 136px;
+}
 
- .photo_span {
-     font-style: italic;
-     font-weight: 400;
-     color: #bea69e;
- }
+.photo_span {
+  font-style: italic;
+  font-weight: 400;
+  color: #bea69e;
+}
 
- .happy_cont {
-    display: flex;
-    height: 56px;
-    margin-bottom: 50px;
-    width: 390px;
-    margin-left: 50px;
- }
+.happy_cont {
+  display: flex;
+  height: 56px;
+  margin-bottom: 50px;
+  width: 390px;
+  margin-left: 50px;
+}
 
- .happy-list {
-     list-style: none;
-     display: flex;
-     justify-content: flex-start;
-     align-items: flex-start;
-     width: 137px;
-     padding-left: 0px;
- }
+.happy-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 137px;
+  padding-left: 0px;
+}
 
- .happy-item {
-     position: relative;
- }
+.happy-item {
+  position: relative;
+}
 
- .happy-item img {
-     border-radius: 100px;
-     border: 3px solid transparent;
- }
+.happy-item img {
+  border-radius: 100px;
+  border: 3px solid transparent;
+}
 
- .happy-item:nth-child(1) {
-    top: -16px;
-     left: 0;
-     z-index: 3;
- }
+.happy-item:nth-child(1) {
+  top: -16px;
+  left: 0;
+  z-index: 3;
+}
 
- .happy-item:nth-child(2) {
-    top: -16px;
-     left: -20px;
-     z-index: 2;
- }
+.happy-item:nth-child(2) {
+  top: -16px;
+  left: -20px;
+  z-index: 2;
+}
 
- .happy-item:nth-child(3) {
-    top: -16px;
-     left: -40px;
-     z-index: 1;
- }
+.happy-item:nth-child(3) {
+  top: -16px;
+  left: -40px;
+  z-index: 1;
+}
 
- .student_text{
-    display: flex;
-    flex-direction: column;
-    margin-right: 40px;
- }
- .students_p {
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.25;
-     letter-spacing: -0.04em;
-     color: #fff;
-     width: 82px;
-     margin-top: 0;
-     margin-bottom: 0px;
-     text-decoration: none;
- }
- .icon-arrowone{
-    padding: 0;
- }
+.student_text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.students_p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+  color: #fff;
+  width: 82px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+.icon-arrowone {
+  padding: 0;
+}
 
- .star_rew{
-    display: flex;
- }
- .star_back{
-    width: 50px;
-    height: 50px;
-    background-color: #BEA69E;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 12px;
- }
+.star_rew {
+  display: flex;
+}
+.star_back {
+  width: 50px;
+  height: 50px;
+  background-color: #bea69e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
 
- .rew_div{
-    display: flex;
-    flex-direction: column;
- }
- .rew_p{
-    margin: 0;
-    margin-bottom: 8px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: -0.04em;
-    color: rgba(255, 255, 255, 0.5);
- }
- .rew_numb{
-     margin: 0;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: -0.04em;
-    color: #fff;
- }
+.rew_div {
+  display: flex;
+  flex-direction: column;
+}
+.rew_p {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.rew_numb {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
 
- .hero_section {
-     display: flex;
-     flex-direction: row;
- }
+.hero_section {
+  display: flex;
+  flex-direction: row;
+}
 
- .cameramen_cont{
-    margin-top: 80px;
- }
+.cameramen_cont {
+  margin-top: 80px;
+}
 
 /* HERO-SECTİON BİTTİ */
-
-
 
 /* MASTER-SECTİON BAŞLADI */
 
 /* MASTER-SECTİON BİTTİ */
 
-
 /* ABOUT-SECTİON BAŞLADI */
 
 /* ABOUT-SECTİON BİTTİ */
 
-
 /* OUR-COURSES-SECTİON BAŞLADI */
+
+.courses-container {
+  background-color: #121212; /* Koyu arka plan rengi */
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+}
+
+.courses-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 410px;
+}
+
+.courses-head {
+  font-size: 48px;
+}
+
+.courses-span {
+  color: #c3a18a;
+}
+
+.courses-head-text {
+  width: 565px;
+  height: 60px;
+  font-size: 16px;
+}
+
+.course-block {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.course-card {
+  background: linear-gradient(
+    135deg,
+    rgba(6, 7, 7, 1),
+    rgba(29, 29, 29, 1)
+  ); /* Linear gradient */
+  width: 400px;
+  height: 452px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.course-number-area {
+  display: flex;
+  flex-direction: row;
+  gap: 290px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.course-number {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+}
+
+.course-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(29, 29, 29, 1);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.course-card-title {
+  font-size: 28px;
+  width: 265px;
+  margin-bottom: 200px;
+  margin-left: 32px;
+}
+
+.course-card-text {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 32px;
+  width: 336px;
+  margin-bottom: 32px;
+}
 
 /* OUR-COURSES-SECTİON BİTTİ */
 
-
 /* OUR-MENTORS-SECTİON BAŞLADI */
-    /* Mentorlar bölümü arka plan ve genel stil ayarları */
-    #mentors {
-        background-color: #121212; /* Koyu arka plan rengi */
-        color: #ffffff; /* Beyaz metin rengi */
-        text-align: center;
-    }
-    /* İçeriği merkeze almak için kullanılan kapsayıcı */
-    .mentors-container {
-        max-width: 1440px;
-        margin: auto;
-    }
-    /* Başlık stili */
-    .mentor-head {
-        font-size: 48px;
-        margin-bottom: 20px;
-        margin-top: 0;
-        text-align:left;
-        font-weight:500;
-    }
-    /* Vurgulanan kelimenin rengi */
-    .mentors-highlight {
-        color: #c3a18a;
-    }
-    /* Mentor kartlarını yatay hizalamak için kullanılan flex container */
-    .mentors {
-        display: flex;
-        justify-content: center;
-        gap: 100px;
-        flex-wrap: wrap; /* Küçük ekranlarda uyumlu olması için */
-    }
-    /* Her bir mentor kartı */
-    .mentor {
-        text-align: center;
-    }
-    /* Mentor fotoğrafları */
-    .mentor img {
-        width: 180px;
-        height: 180px;
-        border-radius: 50%; /* Daire şeklinde görüntüleme */
-        object-fit: cover;
-    }
-    /* Mentor isimleri */
-    .mentor h3 {
-        margin-top: 10px;
-        font-size: 28px;
-        font-weight:500;
-        margin-bottom: 4px;
-    }
-    /* Mentor deneyim bilgileri */
-    .mentor p {
-        font-size: 14px;
-        color: #aaa;
-        font-weight:400;
-    }
+/* Mentorlar bölümü arka plan ve genel stil ayarları */
+#mentors {
+  background-color: #121212; /* Koyu arka plan rengi */
+  color: #ffffff; /* Beyaz metin rengi */
+  text-align: center;
+}
+/* İçeriği merkeze almak için kullanılan kapsayıcı */
+.mentors-container {
+  max-width: 1440px;
+  margin: auto;
+}
+/* Başlık stili */
+.mentor-head {
+  font-size: 48px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-align: left;
+  font-weight: 500;
+}
+/* Vurgulanan kelimenin rengi */
+.mentors-highlight {
+  color: #c3a18a;
+}
+/* Mentor kartlarını yatay hizalamak için kullanılan flex container */
+.mentors {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap; /* Küçük ekranlarda uyumlu olması için */
+}
+/* Her bir mentor kartı */
+.mentor {
+  text-align: center;
+}
+/* Mentor fotoğrafları */
+.mentor img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%; /* Daire şeklinde görüntüleme */
+  object-fit: cover;
+}
+/* Mentor isimleri */
+.mentor h3 {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+/* Mentor deneyim bilgileri */
+.mentor p {
+  font-size: 14px;
+  color: #aaa;
+  font-weight: 400;
+}
 /* OUR-MENTORS-SECTİON BİTTİ */
-
 
 /* SIGN-UP-SECTİON BAŞLADI */
 
 /* SIGN-UP-SECTİON BİTTİ */
 
-
 /* REVİEWS-SECTİON BAŞLADI */
 
 /* REVİEWS-SECTİON BİTTİ */
-
 
 /* FOOTER-SECTİON BAŞLADI */
 
 /* FOOTER-SECTİON BİTTİ */
 
-@media screen and (min-width: 320px)and (max-width:767px){
-    
-    
+@media screen and (min-width: 320px) and (max-width: 767px) {
 }
 
-@media screen and (min-width: 768px) and (max-width:1157px){
-    
-
+@media screen and (min-width: 768px) and (max-width: 1157px) {
 }
 
-@media screen and (min-width: 1158px){
-   
-    
+@media screen and (min-width: 1158px) {
 }
