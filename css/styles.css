@@ -21,12 +21,24 @@ body {
   background-position: center;
   z-index: 1;
   padding-bottom: 150px;
+  
+
+  
+  
+  
+
+
 }
 
 .header {
   display: flex;
   position: relative;
   z-index: 100;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  
+
 }
 .nav_container {
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -39,6 +51,7 @@ body {
   margin-right: 20px;
   margin-bottom: 80px;
   background-color: #121212;
+  
 }
 .nav_list {
   display: flex;
@@ -99,6 +112,7 @@ body {
   margin-right: 100px;
   border-radius: 20px;
   z-index: 100;
+  margin: 0 auto;
 }
 
 .discover_cont {
@@ -403,6 +417,191 @@ body {
 /* OUR-MENTORS-SECTİON BİTTİ */
 
 /* SIGN-UP-SECTİON BAŞLADI */
+.sign_up {
+  background-color: #121212;
+  color: #ffffff;
+  padding-top: 150px;
+  font-family: "DM Sans", sans-serif;
+}
+.sign_up_container {
+ 
+  display: flex;
+  max-width: 1240px;
+  margin: 0 auto;
+  gap: 200px;
+}
+.sign-up-div {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 140;
+
+  
+
+}
+.sign-up-tittle {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.12em;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+.sign-up-title2 {
+  color: #bea69e;
+  font-weight: 500;
+}
+.sign_up_desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25em;
+  letter-spacing: -0.02em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+.modal_form{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  
+}
+.input-prop{
+  max-width: 480px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  
+  
+  
+
+  
+}
+
+.input-group .input-prop:focus-within{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  
+}
+.input-group .input-prop input{
+  color: #fff;
+  width: 100%;
+  background-color: #121212;
+  border: none;
+  outline: none;
+  
+  
+}
+.input-group  .message{
+  color: #fff;
+  width: 100%;
+  background-color: #121212;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 120px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  
+  padding: 0;
+  max-width: 480px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+ 
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+
+  
+}
+.input-group  .message:focus-within{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.send-button{
+  margin-top: 40px;
+  width: 479px;
+  height: 60px;
+  text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.55em;
+  color: rgba(18, 18, 18, 1);
+  border-radius: 12px;
+
+}
+.privacy-policy{
+  margin-top: 20px;
+
+}
+.privacy-policy, .privacy-policy-link{
+  
+  color: rgba(255, 255, 255, 0.5);
+
+}
+.alt-metin{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28em;
+  color: rgba(255, 255, 255, 0.5);
+  gap: 12;
+}
+
+.camera-group{
+  display: flex;
+  gap: 20px;
+
+}
+.camera-lens{
+ margin-top: 252px;
+
+
+}
+.camera-lens{
+  background-color: rgba(190, 166, 158, 1);
+  width: 190px;
+  height: 288px;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.camera-lens img{
+  width: 163px;
+  height: 154px;
+  transform: translate(-14%, 10% );
+
+
+
+}
+.camera-2-back{
+  width: 350px;
+  height: 540px;
+  background-color: rgba(29, 29, 29, 1);
+  border-radius: 1000px;
+
+}
+.camera-2-back img{
+  width: 254px;
+  height: 313px;
+  margin-top: 139px;
+  margin-bottom:126px;
+  transform: translate(24%  );
+
+
+}
+
+
+  
+
 
 /* SIGN-UP-SECTİON BİTTİ */
 
@@ -414,286 +613,248 @@ body {
 
 /* FOOTER-SECTİON BİTTİ */
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    /* HEADER BAŞLADI */
 
-@media screen and (min-width: 320px)and (max-width:767px){
-    body{
-
-        /* HEADER BAŞLADI */
-
-        .header_nav {
-            display: none;
-        }
-        .nav_container{
-            margin: 20px 20px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-        .logo-link{
-            padding: 20px 17px;
-            padding-right: 0px;
-            margin: unset;
-            font-size: 16px;
-        }
-        .sign_button{
-            display: none;
-        }
-
-        .cam_menu{
-            width: 80px;
-            display: flex;
-            margin-right: 20px;
-
-        }
-
-        .camera_ic {
-            width: 32px;
-            height: 32px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            background-color: #1D1D1D;
-           
-        }
-        .hamburger-menu {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 5px;
-            cursor: pointer;
-            width: 32px;
-            height: 22px;
-            margin-left: 14px;
-            margin-top: 8px;
-        }
-        
-        .hamburger-menu span {
-            display: block;
-            height: 2px;
-            background-color: #fff;
-            border-radius: 2px;
-        }
-        
-        .long {
-            width: 30px;
-            margin-left: auto;
-        }
-        
-        .short {
-            width: 20px;
-            margin-left: auto;
-        }
-
-        /* HEADER BİTTİ */
-
-        
-        /* HERO-SECTİON BAŞLADI */
-
-        .hero_section {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: #1D1D1D;
-            margin-left: auto;
-            margin-right: auto;
-            width: 280px;
-            height: 750px;
-        }
-        .hero_container{
-            padding-bottom: 80px;
-        }
-        .cameramen_cont{
-            margin: unset;
-        }
-        .discover_cont{
-            margin: unset;
-            padding-top: 40px;
-            
-        }
-        .discover_title{
-            width: 260px;
-            margin-left: 20px;
-            margin-right: 20px;
-            font-weight: 500;
-            font-size: 40px;
-            line-height: 1.1;
-            letter-spacing: -0.04em;
-            color: #fff;
-        }
-        .discover_p{
-            margin: unset;
-            width: 260px;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-top: 20px;
-            font-size: 14px;
-            margin-bottom: 40px;
-        }
-
-        .happy_cont{
-            margin-left: 20px;
-            margin-right: 40px;
-            display: flex;
-            flex-wrap: wrap;
-            font-size: 14px;
-        }
-        .star_rew{
-            width: 100%; 
-        }
-        .cameramen_cont{
-            display: flex;
-            align-items: flex-end;
-            margin-left: 40px;
-        }
-        .cameramen_cont img{
-            width: 194px;
-            height: 236px;
-
-        }
-        /* HERO-SECTİON BİTTİ */
-
-
-        /* MASTER-SECTİON BAŞLADI */
-        
-        /* MASTER-SECTİON BİTTİ */
-        
-        
-        /* ABOUT-SECTİON BAŞLADI */
-        
-        /* ABOUT-SECTİON BİTTİ */
-        
-
-        /* OUR-COURSES-SECTİON BAŞLADI */
-        
-        /* OUR-COURSES-SECTİON BİTTİ */
-
-
-        /* OUR-MENTORS-SECTİON BAŞLADI */
-        
-        /* OUR-MENTORS-SECTİON BİTTİ */
-
-
-        /* SIGN-UP-SECTİON BAŞLADI */
-        
-        /* SIGN-UP-SECTİON BİTTİ */
-        
-        
-        /* REVİEWS-SECTİON BAŞLADI */
-        
-        /* REVİEWS-SECTİON BİTTİ */
-        
-        
-        /* FOOTER-SECTİON BAŞLADI */
-        
-        /* FOOTER-SECTİON BİTTİ */
-
+    .header_nav {
+      display: none;
     }
-    
+    .nav_container {
+      margin: 20px 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .logo-link {
+      padding: 20px 17px;
+      padding-right: 0px;
+      margin: unset;
+      font-size: 16px;
+    }
+    .sign_button {
+      display: none;
+    }
+
+    .cam_menu {
+      width: 80px;
+      display: flex;
+      margin-right: 20px;
+    }
+
+    .camera_ic {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: #1d1d1d;
+    }
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      width: 32px;
+      height: 22px;
+      margin-left: 14px;
+      margin-top: 8px;
+    }
+
+    .hamburger-menu span {
+      display: block;
+      height: 2px;
+      background-color: #fff;
+      border-radius: 2px;
+    }
+
+    .long {
+      width: 30px;
+      margin-left: auto;
+    }
+
+    .short {
+      width: 20px;
+      margin-left: auto;
+    }
+
+    /* HEADER BİTTİ */
+
+    /* HERO-SECTİON BAŞLADI */
+
+    .hero_section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #1d1d1d;
+      margin-left: auto;
+      margin-right: auto;
+      width: 280px;
+      height: 750px;
+    }
+    .hero_container {
+      padding-bottom: 80px;
+    }
+    .cameramen_cont {
+      margin: unset;
+    }
+    .discover_cont {
+      margin: unset;
+      padding-top: 40px;
+    }
+    .discover_title {
+      width: 260px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+      color: #fff;
+    }
+    .discover_p {
+      margin: unset;
+      width: 260px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    .happy_cont {
+      margin-left: 20px;
+      margin-right: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
+    .star_rew {
+      width: 100%;
+    }
+    .cameramen_cont {
+      display: flex;
+      align-items: flex-end;
+      margin-left: 40px;
+    }
+    .cameramen_cont img {
+      width: 194px;
+      height: 236px;
+    }
+    /* HERO-SECTİON BİTTİ */
+
+    /* MASTER-SECTİON BAŞLADI */
+
+    /* MASTER-SECTİON BİTTİ */
+
+    /* ABOUT-SECTİON BAŞLADI */
+
+    /* ABOUT-SECTİON BİTTİ */
+
+    /* OUR-COURSES-SECTİON BAŞLADI */
+
+    /* OUR-COURSES-SECTİON BİTTİ */
+
+    /* OUR-MENTORS-SECTİON BAŞLADI */
+
+    /* OUR-MENTORS-SECTİON BİTTİ */
+
+    /* SIGN-UP-SECTİON BAŞLADI */
+
+    /* SIGN-UP-SECTİON BİTTİ */
+
+    /* REVİEWS-SECTİON BAŞLADI */
+
+    /* REVİEWS-SECTİON BİTTİ */
+
+    /* FOOTER-SECTİON BAŞLADI */
+
+    /* FOOTER-SECTİON BİTTİ */
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width:1279px){
-    body {
-    
-        /* HEADER BAŞLADI */
-        .camera_ic {
-            display: none;
-        }
-        /* HEADER BİTTİ */
-    
-    
-        /* HERO-SECTİON BAŞLADI */
-    
-        /* HERO-SECTİON BİTTİ */
-    
-    
-        /* MASTER-SECTİON BAŞLADI */
-    
-        /* MASTER-SECTİON BİTTİ */
-    
-    
-        /* ABOUT-SECTİON BAŞLADI */
-    
-        /* ABOUT-SECTİON BİTTİ */
-    
-    
-        /* OUR-COURSES-SECTİON BAŞLADI */
-    
-        /* OUR-COURSES-SECTİON BİTTİ */
-    
-    
-        /* OUR-MENTORS-SECTİON BAŞLADI */
-    
-        /* OUR-MENTORS-SECTİON BİTTİ */
-    
-    
-        /* SIGN-UP-SECTİON BAŞLADI */
-    
-        /* SIGN-UP-SECTİON BİTTİ */
-    
-    
-        /* REVİEWS-SECTİON BAŞLADI */
-    
-        /* REVİEWS-SECTİON BİTTİ */
-    
-    
-        /* FOOTER-SECTİON BAŞLADI */
-    
-        /* FOOTER-SECTİON BİTTİ */
-    
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  body {
+    /* HEADER BAŞLADI */
+    .camera_ic {
+      display: none;
     }
+    /* HEADER BİTTİ */
 
+    /* HERO-SECTİON BAŞLADI */
+
+    /* HERO-SECTİON BİTTİ */
+
+    /* MASTER-SECTİON BAŞLADI */
+
+    /* MASTER-SECTİON BİTTİ */
+
+    /* ABOUT-SECTİON BAŞLADI */
+
+    /* ABOUT-SECTİON BİTTİ */
+
+    /* OUR-COURSES-SECTİON BAŞLADI */
+
+    /* OUR-COURSES-SECTİON BİTTİ */
+
+    /* OUR-MENTORS-SECTİON BAŞLADI */
+
+    /* OUR-MENTORS-SECTİON BİTTİ */
+
+    /* SIGN-UP-SECTİON BAŞLADI */
+
+    /* SIGN-UP-SECTİON BİTTİ */
+
+    /* REVİEWS-SECTİON BAŞLADI */
+
+    /* REVİEWS-SECTİON BİTTİ */
+
+    /* FOOTER-SECTİON BAŞLADI */
+
+    /* FOOTER-SECTİON BİTTİ */
+  }
 }
 
-@media screen and (min-width: 1280px){
-    body {
-
-        /* HEADER BAŞLADI */
-        .camera_ic {
-            display: none;
-        }
-        /* HEADER BİTTİ */
-
-
-        /* HERO-SECTİON BAŞLADI */
-
-        /* HERO-SECTİON BİTTİ */
-
-
-        /* MASTER-SECTİON BAŞLADI */
-
-        /* MASTER-SECTİON BİTTİ */
-
-
-        /* ABOUT-SECTİON BAŞLADI */
-
-        /* ABOUT-SECTİON BİTTİ */
-
-
-        /* OUR-COURSES-SECTİON BAŞLADI */
-
-        /* OUR-COURSES-SECTİON BİTTİ */
-
-
-        /* OUR-MENTORS-SECTİON BAŞLADI */
-
-        /* OUR-MENTORS-SECTİON BİTTİ */
-
-
-        /* SIGN-UP-SECTİON BAŞLADI */
-
-        /* SIGN-UP-SECTİON BİTTİ */
-
-
-        /* REVİEWS-SECTİON BAŞLADI */
-
-        /* REVİEWS-SECTİON BİTTİ */
-
-
-        /* FOOTER-SECTİON BAŞLADI */
-
-        /* FOOTER-SECTİON BİTTİ */
-
+@media screen and (min-width: 1280px) {
+  body {
+    /* HEADER BAŞLADI */
+    .camera_ic {
+      display: none;
     }
-   
+    /* HEADER BİTTİ */
+
+    /* HERO-SECTİON BAŞLADI */
+
+    /* HERO-SECTİON BİTTİ */
+
+    /* MASTER-SECTİON BAŞLADI */
+
+    /* MASTER-SECTİON BİTTİ */
+
+    /* ABOUT-SECTİON BAŞLADI */
+
+    /* ABOUT-SECTİON BİTTİ */
+
+    /* OUR-COURSES-SECTİON BAŞLADI */
+
+    /* OUR-COURSES-SECTİON BİTTİ */
+
+    /* OUR-MENTORS-SECTİON BAŞLADI */
+
+    /* OUR-MENTORS-SECTİON BİTTİ */
+
+    /* SIGN-UP-SECTİON BAŞLADI */
+
+    /* SIGN-UP-SECTİON BİTTİ */
+
+    /* REVİEWS-SECTİON BAŞLADI */
+
+    /* REVİEWS-SECTİON BİTTİ */
+
+    /* FOOTER-SECTİON BAŞLADI */
+
+    /* FOOTER-SECTİON BİTTİ */
+  }
 }
