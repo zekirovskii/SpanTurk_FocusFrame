@@ -265,10 +265,77 @@ body {
 /* HERO-SECTİON BİTTİ */
 
 /* MASTER-SECTİON BAŞLADI */
-
+ #master-section{
+  border-top: 1px solid rgba(255,255,255,0.2 );
+  border-bottom: 1px solid rgba(255,255,255,0.2 );
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+ }
+.master{
+font-family: "DM Sans", sans-serif;
+font-weight:400;
+font-size: 59px;
+line-height: 1.08;
+letter-spacing: 0.05em;
+color:rgba(190, 166, 158, 1);
+}
+.master-span{
+  color:#fff;
+}
 /* MASTER-SECTİON BİTTİ */
 
 /* ABOUT-SECTİON BAŞLADI */
+#about-section{
+ background-color: #121212; 
+ font-family: "DM Sans", sans-serif;
+ color:rgba(255, 255, 255, 1);
+}
+.about-span{
+color: rgba(190, 166, 158, 1)
+}
+.about-us-title{
+  font-weight: 500 ;
+  font-size: 48px;
+  line-height: 1.125;
+  letter-spacing: -0.04em;
+  margin-top: 0;
+
+}
+.about-us-container{
+  margin: 0 auto;
+  max-width: 1240px;
+  padding-top: 150px;
+}
+.about-us-kamera{
+  display: flex;
+  align-items: center;
+  gap:50px;
+}
+.kamera-paragraf{
+display: flex;
+align-items: center;
+gap: 40px;
+}
+.kamera-img{
+  width: 560px;
+  height:240px;
+  border-radius: 1000px;
+ object-fit: cover;  
+}
+.paragraf-our-photo{
+  font-size: 16px;
+  width: 314px;
+  height: 220px;
+}
+.paragraf-our-courses{
+  font-size: 16px;
+  width: 276px;
+  height: 215px;
+}
 
 /* ABOUT-SECTİON BİTTİ */
 
@@ -278,6 +345,7 @@ body {
   background-color: #121212; /* Koyu arka plan rengi */
   color: #ffffff;
   font-family: "DM Sans", sans-serif;
+  padding-top: 150px;
 }
 
 .courses-header {
@@ -473,6 +541,7 @@ body {
   flex-direction: column;
   gap: 14px;
   
+  
 }
 .input-prop{
   max-width: 480px;
@@ -481,11 +550,6 @@ body {
   border-radius: 12px;
   display: flex;
   align-items: center;
-  
-  
-  
-
-  
 }
 
 .input-group .input-prop:focus-within{
@@ -498,6 +562,7 @@ body {
   background-color: #121212;
   border: none;
   outline: none;
+  padding-left: 18px;
   
   
 }
@@ -511,16 +576,12 @@ body {
   height: 120px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 14px;
-  
-  padding: 0;
+  padding: 18px;
   max-width: 480px;
   border: 1px solid rgba(255, 255, 255, 0.2);
- 
   border-radius: 12px;
   display: flex;
   align-items: center;
-
-  
 }
 .input-group  .message:focus-within{
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -820,7 +881,8 @@ body {
     /* HERO-SECTİON BİTTİ */
 
     /* MASTER-SECTİON BAŞLADI */
-
+   
+  
     /* MASTER-SECTİON BİTTİ */
 
     /* ABOUT-SECTİON BAŞLADI */
