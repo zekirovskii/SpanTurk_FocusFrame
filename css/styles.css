@@ -366,7 +366,7 @@ body {
   background-color: #121212; /* Koyu arka plan rengi */
   color: #ffffff; /* Beyaz metin rengi */
   text-align: center;
-  margin-left: 3%;
+  padding-left: 3%;
   padding-top: 150px;
 }
 /* İçeriği merkeze almak için kullanılan kapsayıcı */
