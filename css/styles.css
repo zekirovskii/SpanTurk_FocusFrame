@@ -434,7 +434,6 @@ gap: 40px;
   background-color: #121212; /* Koyu arka plan rengi */
   color: #ffffff; /* Beyaz metin rengi */
   text-align: center;
-  padding-left: 3%;
   padding-top: 150px;
 }
 /* İçeriği merkeze almak için kullanılan kapsayıcı */
@@ -445,10 +444,11 @@ gap: 40px;
 /* Başlık stili */
 .mentor-head {
   font-size: 48px;
-  margin-bottom: 20px;
   margin-top: 0;
   text-align: left;
   font-weight: 500;
+  max-width:1240px;
+  margin: 0 auto;
 }
 /* Vurgulanan kelimenin rengi */
 .mentors-highlight {
