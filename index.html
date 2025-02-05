@@ -25,50 +25,75 @@
 
     <div class="hero_container">
       <header class="header">
-        <div class="nav_container">
-          <a class="logo-link" href="">Focus.Frame</a>
-          <nav class="header_nav">
-            <ul class="nav_list">
-              <li class="nav-item">
-                <a href="">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="">Our Courses</a>
-              </li>
-              <li class="nav-item">
-                <a href="">Our Mentors</a>
-              </li>
-              <li class="nav-item">
-                <a href="">Reviews</a>
-              </li>
-              <li class="nav-item">
-                <a href="">Contacts</a>
-              </li>
-            </ul>
-          </nav>
+        <div class="header_cont">
+          <div class="nav_container">
+            <a class="logo-link" href="">Focus.Frame</a>
+            <nav class="header_nav">
+              <ul class="nav_list">
+                <li class="nav-item">
+                  <a href="">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="">Our Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a href="">Our Mentors</a>
+                </li>
+                <li class="nav-item">
+                  <a href="">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a href="">Contacts</a>
+                </li>
+              </ul>
+            </nav>
 
-          <div class="cam_menu">
-            <div class="camera_ic">
-              <a class="camera-ic-a" href="">
-                <div class="clearfix pbs">
-                  <svg class="icon icon-camera" width="16" height="16">
-                    <use
-                      xlink:href="./images/symbol-defs.svg#icon-camera"
-                    ></use>
-                  </svg>
-                </div>
-              </a>
-            </div>
+            <div class="cam_menu">
+              <div class="camera_ic">
+                <a class="camera-ic-a" href="">
+                  <div class="clearfix pbs">
+                    <svg class="icon icon-camera" width="16" height="16">
+                      <use
+                        xlink:href="./images/symbol-defs.svg#icon-camera"
+                      ></use>
+                    </svg>
+                  </div>
+                </a>
+              </div>
 
-            <div class="hamburger-menu">
-              <span class="long"></span>
-              <span class="short"></span>
-              <span class="long"></span>
+              <div class="hamburger-menu">
+                <span class="long"></span>
+                <span class="short"></span>
+                <span class="long"></span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="sign_button">
-          <a class="sign_a" href="">SIGN UP</a>
+          <div class="sign_button">
+            <a class="sign_a" href="">SIGN UP</a>
+          </div>
+          <div class="mobile_window">
+            <div class="mobile_menu">
+              <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                  <li class="mobile-nav-item">
+                    <a class="mobile-nav-item-link" href="">ABOUT US </a>
+                  </li>
+                  <li class="mobile-nav-item">
+                    <a class="mobile-nav-item-link" href="">OUR COURSES</a>
+                  </li>
+                  <li class="mobile-nav-item">
+                    <a class="mobile-nav-item-link" href="">OUT MENTORS</a>
+                  </li>
+                  <li class="mobile-nav-item">
+                    <a class="mobile-nav-item-link" href="">REVİEWS</a>
+                  </li>
+                  <li class="mobile-nav-item">
+                    <a class="mobile-nav-item-link" href="">CONTACTS</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
       </header>
       <section class="hero_section">
@@ -159,9 +184,49 @@
 
     <!-- MASTER-SECTİON BAŞLADI-->
 
+    <section id="master-section">
+      <h2 class="master">
+        MASTER <span class="master-span">YOUR PHOTOGRAPY </span>SKILLS WITH US!
+      </h2>
+    </section>
+
     <!-- MASTER-SECTİON BİTTİ-->
 
     <!-- ABOUT-SECTİON BAŞLADI-->
+
+    <section id="about-section">
+      <div class="about-us-container">
+        <div class="about-us">
+          <h2 class="about-us-title">
+            About<span class="about-span"> Us</span>
+          </h2>
+        </div>
+        <div class="about-us-kamera">
+          <div class="about-us-img">
+            <img class="kamera-img" src="images/kamera.jpg" />
+          </div>
+          <div class="kamera-paragraf">
+            <p class="paragraf-our-photo">
+              Our photography school is designed to teach you everything you
+              need to know about this magical art. Regardless of your experience
+              or skill level, we offer a wide range of courses to suit your
+              needs and interests. Our teaching team consists of experienced
+              photographers who have many years of experience in this field.
+              They strive not only to share their knowledge, but also to inspire
+              you to develop and express your unique creativity.
+            </p>
+
+            <p class="paragraf-our-courses">
+              Our courses cover a wide range of topics, from the basics of
+              photography and equipment use to professional image processing and
+              creating impressive compositions. You will have the opportunity to
+              learn the technical aspects of photography, discover your own
+              style and develop your own visual language.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ABOUT-SECTİON BİTTİ-->
 
@@ -278,6 +343,77 @@
 
     <!-- SIGN-UP-SECTİON BAŞLADI-->
 
+    <section class="sign_up">
+      <div class="sign_up_container">
+        <div class="sign-up-div">
+          <h2 class="sign-up-tittle">
+            <span>Sign </span><span class="sign-up-title2">Up</span>
+          </h2>
+          <p class="sign_up_desc">
+            Please use the form below to contact us. Enter your name, email, and
+            message and we'll get back to you shortly.
+          </p>
+          <form name="modal_form">
+            <div class="input-group">
+              <div class="input-prop">
+                <input
+                  type="text"
+                  name="username"
+                  class="username"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="input-prop">
+                <input
+                  type="text"
+                  name="email"
+                  class="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <textarea
+                name="message"
+                id="message"
+                class="message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="send-button-area">
+              <input type="submit" value="Send" class="send-button" />
+            </div>
+            <div class="privacy-policy">
+              <p class="alt-metin">
+                By clicking on “Send” button, you agree to our
+                <a href="#" class="privacy-policy-link">Privacy Policy</a
+                >,<br />
+                and allow Promodo to use this information for marketing
+                purposes.
+              </p>
+            </div>
+          </form>
+        </div>
+        <div class="camera-group">
+          <div class="camera-lens">
+            <img
+              src="./images/sign_cam.png"
+              srcset="./images/sign_cam@2x.png"
+              alt="camera lens"
+            />
+          </div>
+          <div class="camera-2">
+            <div class="camera-2-back">
+              <img
+                src="./images/sign_camtwo.png"
+                srcset="./images/sign_camtwo@2x.png"
+                alt="camera photography"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- SIGN-UP-SECTİON BİTTİ-->
 
     <!-- REVİEWS-SECTİON BAŞLADI-->
@@ -303,22 +439,22 @@
               <div class="review-stars">
                 <svg width="20" height="20" class="icon-herostar">
                   <use
-                    xlink:href="./images/symbol-defs.svg#icon-herostar"
+                    xlink:href="./images/symbol-defs.svg#icon-star"
                   ></use>
                 </svg>
                 <svg width="20" height="20" class="icon-herostar">
                   <use
-                    xlink:href="./images/symbol-defs.svg#icon-herostar"
+                    xlink:href="./images/symbol-defs.svg#icon-star"
                   ></use>
                 </svg>
                 <svg width="20" height="20" class="icon-herostar">
                   <use
-                    xlink:href="./images/symbol-defs.svg#icon-herostar"
+                    xlink:href="./images/symbol-defs.svg#icon-star"
                   ></use>
                 </svg>
                 <svg width="20" height="20" class="icon-herostar">
                   <use
-                    xlink:href="./images/symbol-defs.svg#icon-herostar"
+                    xlink:href="./images/symbol-defs.svg#icon-star"
                   ></use>
                 </svg>
                 <svg width="20" height="20" class="icon-herostar">
@@ -350,25 +486,25 @@
                   <p class="review-personne-status">Student</p>
                 </div>
               </div>
-              <div class="review-stars">
+              <div class="review-stars-two">
                 <svg width="20" height="20" class="icon-herostar">
                   <use
-                    xlink:href="./images/symbol-defs.svg#icon-herostar"
+                    xlink:href="./images/symbol-defs.svg#icon-star"
                   ></use>
                 </svg>
                 <svg width="20" height="20" class="icon-herostar">
                   <use
-                    xlink:href="./images/symbol-defs.svg#icon-herostar"
+                    xlink:href="./images/symbol-defs.svg#icon-star"
                   ></use>
                 </svg>
                 <svg width="20" height="20" class="icon-herostar">
                   <use
-                    xlink:href="./images/symbol-defs.svg#icon-herostar"
+                    xlink:href="./images/symbol-defs.svg#icon-star"
                   ></use>
                 </svg>
                 <svg width="20" height="20" class="icon-herostar">
                   <use
-                    xlink:href="./images/symbol-defs.svg#icon-herostar"
+                    xlink:href="./images/symbol-defs.svg#icon-star"
                   ></use>
                 </svg>
                 <svg width="20" height="20" class="icon-herostar">
@@ -391,8 +527,8 @@
     </section>
     <!-- REVİEWS-SECTİON BİTTİ-->
 
-    <!-- FOOTER-SECTİON BAŞLADI-->
-
-    <!-- FOOTER-SECTİON BİTTİ-->
+    <!-- FOOTER-SECTİON BAŞLADI -->
+    <footer class="footer"></footer>
+    <!-- FOOTER-SECTİON BİTTİ -->
   </body>
 </html>
