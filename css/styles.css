@@ -640,6 +640,7 @@ body {
   background-color: #121212; /* Koyu arka plan rengi */
   color: #ffffff;
   font-family: "DM Sans", sans-serif;
+  padding: 150px;
 }
 
 .reviews-container {
