@@ -82,6 +82,11 @@ body {
   height: 60px;
   background: #fff;
 }
+.sign_button:hover{
+  background-color: #121212;
+  color: #bea69e;
+  border: 1px solid #1d1d1d;
+}
 
 .sign_a {
   font-family: "DM Sans", sans-serif;
@@ -92,6 +97,10 @@ body {
   color: #121212;
   background: #fff;
   text-decoration: none;
+}
+.sign_button:hover .sign_a{
+  background-color: #121212;
+  color: #bea69e;
 }
 
 /* HEADER BİTTİ */
@@ -585,6 +594,15 @@ body {
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 1);
 }
+.send-button-area:hover{
+  background-color: #121212;
+}
+.send-button-area:hover .send-button{
+  background-color: #121212;
+  color: #bea69e;
+  border: 1px solid #1d1d1d;
+}
+
 .privacy-policy {
   margin-top: 20px;
 }
@@ -854,6 +872,11 @@ body {
   color: #fff;
   font-family: "DM Sans", sans-serif;
 }
+.footer-go-button:hover{
+  background-color: #121212;
+  color: #bea69e;
+  border: 1px solid #1d1d1d;
+}
 .footer-privacy-public {
   font-family: "DM Sans", sans-serif;
   font-weight: 14px;
@@ -1007,7 +1030,6 @@ body {
     }
 
     .mobile_window {
-      border: 1px solid red;
       position: fixed;
       top: 0;
       left: 0;
@@ -1023,13 +1045,77 @@ body {
       display: none;
     }
     .mobile_menu {
-      border: 1px solid red;
       width: 200px;
       position: fixed;
       margin-left: auto;
-
-      /* Genişliği ekranın tamamı */
       height: 100vh;
+      background-color: #bea69e;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+    .exit_div{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .close-btn {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      position: relative;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-right: 20px;
+    }
+    
+    .close-btn::before,
+    .close-btn::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: black;
+      border-radius: 3px;
+    }
+    
+    .close-btn::before {
+      transform: rotate(45deg);
+    }
+    
+    .close-btn::after {
+      transform: rotate(-45deg);
+    }
+    
+    .mobile-nav-list{
+      list-style-type: none;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 20px;
+    }
+    .mobile-nav-item-link{
+      text-decoration: none;
+      color: #121212;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #121212;
+      font-family: "DM Sans", sans-serif;
+    }
+    .mobile-nav-item-link:hover{
+      font-weight: 700;
+    }
+    .mobile_menu_img{
+        object-fit: cover;
+    }
+    .mobile_menu_img img{
+      display: block;
+        width: 100%;
+        height: 100%;
     }
 
     /* HERO-SECTİON BİTTİ */
@@ -1064,177 +1150,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  body {
-    /* HEADER BAŞLADI */
-    .camera_ic {
-      display: none;
-    }
 
-
-  .cam_menu {
-    width: 80px;
-    display: flex;
-    margin-right: 20px;
-  }
-
-  .camera_ic {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #1d1d1d;
-  }
-  .hamburger-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    cursor: pointer;
-    width: 32px;
-    height: 22px;
-    margin-left: 14px;
-    margin-top: 8px;
-  }
-
-  .hamburger-menu span {
-    display: block;
-    height: 2px;
-    background-color: #fff;
-    border-radius: 2px;
-  }
-
-  .long {
-    width: 30px;
-    margin-left: auto;
-  }
-
-  .short {
-    width: 20px;
-    margin-left: auto;
-  }
-
-  /* HEADER BİTTİ */
-
-  /* HERO-SECTİON BAŞLADI */
-
-  .hero_section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #1d1d1d;
-    margin-left: auto;
-    margin-right: auto;
-    width: 280px;
-    height: 750px;
-  }
-  .hero_container {
-    padding-bottom: 80px;
-  }
-  .cameramen_cont {
-    margin: unset;
-  }
-  .discover_cont {
-    margin: unset;
-    padding-top: 40px;
-  }
-  .discover_title {
-    width: 260px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 1.1;
-    letter-spacing: -0.04em;
-    color: #fff;
-  }
-  .discover_p {
-    margin: unset;
-    width: 260px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    font-size: 14px;
-    margin-bottom: 40px;
-  }
-
-  .happy_cont {
-    margin-left: 20px;
-    margin-right: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 14px;
-  }
-  .star_rew {
-    width: 100%;
-  }
-  .cameramen_cont {
-    display: flex;
-    align-items: flex-end;
-    margin-left: 40px;
-  }
-  .cameramen_cont img {
-    width: 194px;
-    height: 236px;
-  }
-  .mobile_window {
-    border: 1px solid red;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100%;
-    background-color: rgba(35, 35, 36, 0.4);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
-    justify-content: flex-end;
-  }
-  .is-close {
-    display: none;
-  }
-  .mobile_menu {
-    border: 1px solid red;
-    width: 200px;
-    position: fixed;
-    margin-left: auto;
-
-    /* Genişliği ekranın tamamı */
-    height: 100vh;
-  }
-  /* HERO-SECTİON BİTTİ */
-
-  /* MASTER-SECTİON BAŞLADI */
-
-  /* MASTER-SECTİON BİTTİ */
-
-  /* ABOUT-SECTİON BAŞLADI */
-
-  /* ABOUT-SECTİON BİTTİ */
-
-  /* OUR-COURSES-SECTİON BAŞLADI */
-
-  /* OUR-COURSES-SECTİON BİTTİ */
-
-  /* OUR-MENTORS-SECTİON BAŞLADI */
-
-  /* OUR-MENTORS-SECTİON BİTTİ */
-
-  /* SIGN-UP-SECTİON BAŞLADI */
-
-  /* SIGN-UP-SECTİON BİTTİ */
-
-  /* REVİEWS-SECTİON BAŞLADI */
-
-  /* REVİEWS-SECTİON BİTTİ */
-
-  /* FOOTER-SECTİON BAŞLADI */
-
-  /* FOOTER-SECTİON BİTTİ */
-}
-}
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   body {
@@ -1254,15 +1170,6 @@ body {
     /* HERO-SECTİON BİTTİ */
 
     /* MASTER-SECTİON BAŞLADI */
-
-     .master {
-       font-family: "DM Sans", sans-serif;
-       font-weight: 400;
-       font-size: 50px;
-       line-height: 1.08;
-       letter-spacing: 0.05em;
-       color: rgba(190, 166, 158, 1);
-     }
   
     /* MASTER-SECTİON BİTTİ */
 
