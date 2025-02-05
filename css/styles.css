@@ -881,7 +881,14 @@ gap: 40px;
     /* HERO-SECTİON BİTTİ */
 
     /* MASTER-SECTİON BAŞLADI */
-   
+     .master {
+       font-family: "DM Sans", sans-serif;
+       font-weight: 400;
+       font-size: 50px;
+       line-height: 1.08;
+       letter-spacing: 0.05em;
+       color: rgba(190, 166, 158, 1);
+     }
   
     /* MASTER-SECTİON BİTTİ */
 
