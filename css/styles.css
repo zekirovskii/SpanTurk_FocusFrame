@@ -414,6 +414,11 @@ body {
   height: 32px;
 }
 
+.course-icon:hover {
+  background-color: #c3a18a;
+  cursor: pointer;
+}
+
 .course-card-title {
   font-size: 28px;
   width: 265px;
