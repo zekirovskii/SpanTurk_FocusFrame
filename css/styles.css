@@ -660,7 +660,12 @@ body {
 
 /* SIGN-UP-SECTİON BİTTİ */
 
+
 /* REVİEWS-SECTİON BAŞLADI */
+
+
+/* REVİEWS-SECTİON BAŞLADI */
+
 
 #reviews-section {
   background-color: #121212; /* Koyu arka plan rengi */
@@ -668,6 +673,7 @@ body {
   font-family: "DM Sans", sans-serif;
   padding-top: 150px;
   padding-bottom: 150px;
+
 }
 
 .reviews-container {
@@ -704,6 +710,45 @@ body {
   max-width: 610px;
   border-radius: 12px;
 }
+
+
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.reviews-header {
+  max-width: 1240px;
+}
+
+.reviews-head {
+  font-size: 48px;
+  text-align: start;
+  font-weight: 500;
+  line-height: 1.12em;
+  letter-spacing: -0.04em;
+}
+
+.reviews-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1280px;
+}
+
+.reviews-block,
+.reviews-block-two {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 610px;
+  border-radius: 12px;
+}
+
 
 .reviews-infostar {
   display: flex;
@@ -749,10 +794,19 @@ body {
   gap: 4px;
 }
 
+
 .review-stars-two {
   display: flex;
   gap: 4px;
 }
+
+
+
+.review-stars-two {
+  display: flex;
+  gap: 4px;
+}
+
 
 .icon-herostar use {
   fill: #bea69e;
@@ -1069,6 +1123,7 @@ body {
       cursor: pointer;
       margin-top: 15px;
       margin-right: 20px;
+
     }
 
     .close-btn::before,
@@ -1119,6 +1174,59 @@ body {
       width: 100%;
       height: 100%;
     }
+
+
+    }
+
+    .close-btn::before,
+    .close-btn::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: black;
+      border-radius: 3px;
+    }
+
+    .close-btn::before {
+      transform: rotate(45deg);
+    }
+
+    .close-btn::after {
+      transform: rotate(-45deg);
+    }
+
+    .mobile-nav-list {
+      list-style-type: none;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 20px;
+    }
+    .mobile-nav-item-link {
+      text-decoration: none;
+      color: #121212;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #121212;
+      font-family: "DM Sans", sans-serif;
+    }
+    .mobile-nav-item-link:hover {
+      font-weight: 700;
+    }
+    .mobile_menu_img {
+      object-fit: cover;
+    }
+    .mobile_menu_img img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
 
     /* HERO-SECTİON BİTTİ */
 
@@ -1173,7 +1281,79 @@ body {
     /* ABOUT-SECTİON BİTTİ */
 
     /* OUR-COURSES-SECTİON BAŞLADI */
+
    
+
+    .courses-section {
+      padding-top: 80px;
+      width: 280px;
+    }
+
+    .courses-container {
+      height: 1500px;
+    }
+
+    .courses-header {
+      gap: 20px;
+      flex-direction: column;
+      
+    }
+
+    .courses-head {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 1.14em;
+      letter-spacing: -0.04em;
+    }
+
+    .course-block {
+      margin-top: 40px;
+      flex-direction: column;
+      width: 260px;
+      margin: 0 auto;
+      margin-top: 40px;
+      
+    }
+    .course-card {
+      width: 260px;
+      height: 308px;
+      
+    }
+
+    .courses-head-text {
+      width: 260px;
+      height: 72px;
+      font-size: 14px;
+    }
+
+    .course-card-text {
+      font-size: 14px;
+    }
+
+    .course-number-area {
+      gap: 180px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .course-card-title {
+      font-size: 32px;
+      width: 230px;
+      margin-bottom: 140px;
+      margin-left: 27px;
+    }
+
+    .course-card-text {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: px;
+      width: 230px;
+      margin-top: 0;
+      margin-left: 27px;
+    }
+
+
     /* OUR-COURSES-SECTİON BİTTİ */
 
     /* OUR-MENTORS-SECTİON BAŞLADI */
@@ -1185,6 +1365,91 @@ body {
     /* SIGN-UP-SECTİON BİTTİ */
 
     /* REVİEWS-SECTİON BAŞLADI */
+
+    
+
+    .reviews-header {
+      max-width: 320px;
+    }
+    .reviews-block-two {
+      display: none;
+    }
+
+    #reviews-section {
+      background-color: #121212; /* Koyu arka plan rengi */
+      color: #ffffff;
+      font-family: "DM Sans", sans-serif;
+      padding-top: 150px;
+      padding-bottom: 150px;
+
+    }
+
+    .reviews-container {
+      width: 280px;
+      height: 300px;
+    }
+
+    .reviews-head {
+      font-size: 32px;
+      margin-left: 20px;
+      font-weight: 500;
+      line-height: 1.12em;
+      letter-spacing: -0.04em;
+    }
+
+    .reviews-cards {
+    }
+
+    .reviews-block {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      width: 280px;
+      height: 265px;
+      border-radius: 12px;
+    }
+
+    .reviews-infostar {
+    display: block;
+  
+    }
+
+    .reviews-info {   
+    }
+
+    .reviews-image {
+    }
+
+    .reviews-info-plus {
+      margin-left: 10px;
+      width: 280px;
+    }
+    .review-personne-name {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .review-personne-status {
+      font-size: 12px;
+      margin: 0;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .reviews-text {
+      
+      font-size: 14px;
+    }
+
+    .review-stars {
+    margin-left: 86px;
+    
+    }
+
+    .review-stars-two {
+   
+    }
+
+    .icon-herostar use {
+      fill: #bea69e;
+    }
 
     /* REVİEWS-SECTİON BİTTİ */
 
@@ -1459,6 +1724,7 @@ body {
     /* HERO-SECTİON BİTTİ */
 
     /* MASTER-SECTİON BAŞLADI */
+
     .skill-mobile-span{
       display: flex;
       justify-content: center;
@@ -1472,6 +1738,9 @@ body {
       letter-spacing: -0.02em;
     }
       
+
+
+
     /* MASTER-SECTİON BİTTİ */
 
     /* ABOUT-SECTİON BAŞLADI */
