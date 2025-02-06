@@ -82,7 +82,7 @@ body {
   height: 60px;
   background: #fff;
 }
-.sign_button:hover{
+.sign_button:hover {
   background-color: #121212;
   color: #bea69e;
   border: 1px solid #1d1d1d;
@@ -98,7 +98,7 @@ body {
   background: #fff;
   text-decoration: none;
 }
-.sign_button:hover .sign_a{
+.sign_button:hover .sign_a {
   background-color: #121212;
   color: #bea69e;
 }
@@ -340,7 +340,6 @@ body {
 /* ABOUT-SECTİON BİTTİ */
 
 /* OUR-COURSES-SECTİON BAŞLADI */
-
 .courses-container {
   background-color: #121212; /* Koyu arka plan rengi */
   color: #ffffff;
@@ -360,6 +359,7 @@ body {
   font-weight: 500;
   line-height: 1.12em;
   letter-spacing: -0.04em;
+  text-align: start;
 }
 
 .courses-span {
@@ -376,6 +376,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
+  
 }
 
 .course-card {
@@ -502,7 +503,6 @@ body {
   color: #ffffff;
   padding-top: 150px;
   font-family: "DM Sans", sans-serif;
-  
 }
 .sign_up_container {
   display: flex;
@@ -599,10 +599,10 @@ body {
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 1);
 }
-.send-button-area:hover{
+.send-button-area:hover {
   background-color: #121212;
 }
-.send-button-area:hover .send-button{
+.send-button-area:hover .send-button {
   background-color: #121212;
   color: #bea69e;
   border: 1px solid #1d1d1d;
@@ -656,12 +656,9 @@ body {
   margin-top: 139px;
   margin-bottom: 126px;
   transform: translate(24%);
-
 }
 
 /* SIGN-UP-SECTİON BİTTİ */
-
-
 
 /* REVİEWS-SECTİON BAŞLADI */
 
@@ -678,7 +675,6 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-
   max-width: 1240px;
 }
 
@@ -694,7 +690,6 @@ body {
   letter-spacing: -0.04em;
 }
 
-
 .reviews-cards {
   display: flex;
   justify-content: center;
@@ -703,7 +698,8 @@ body {
   max-width: 1280px;
 }
 
-.reviews-block {
+.reviews-block,
+.reviews-block-two {
   border: 1px solid rgba(255, 255, 255, 0.2);
   max-width: 610px;
   border-radius: 12px;
@@ -877,7 +873,7 @@ body {
   color: #fff;
   font-family: "DM Sans", sans-serif;
 }
-.footer-go-button:hover{
+.footer-go-button:hover {
   background-color: #121212;
   color: #bea69e;
   border: 1px solid #1d1d1d;
@@ -1060,9 +1056,8 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-
     }
-    .exit_div{
+    .exit_div {
       display: flex;
       justify-content: flex-end;
     }
@@ -1075,7 +1070,7 @@ body {
       margin-top: 15px;
       margin-right: 20px;
     }
-    
+
     .close-btn::before,
     .close-btn::after {
       content: "";
@@ -1087,16 +1082,16 @@ body {
       background-color: black;
       border-radius: 3px;
     }
-    
+
     .close-btn::before {
       transform: rotate(45deg);
     }
-    
+
     .close-btn::after {
       transform: rotate(-45deg);
     }
-    
-    .mobile-nav-list{
+
+    .mobile-nav-list {
       list-style-type: none;
       margin-top: 100px;
       display: flex;
@@ -1104,7 +1099,7 @@ body {
       gap: 20px;
       padding-left: 20px;
     }
-    .mobile-nav-item-link{
+    .mobile-nav-item-link {
       text-decoration: none;
       color: #121212;
       font-weight: 400;
@@ -1113,16 +1108,16 @@ body {
       color: #121212;
       font-family: "DM Sans", sans-serif;
     }
-    .mobile-nav-item-link:hover{
+    .mobile-nav-item-link:hover {
       font-weight: 700;
     }
-    .mobile_menu_img{
-        object-fit: cover;
+    .mobile_menu_img {
+      object-fit: cover;
     }
-    .mobile_menu_img img{
+    .mobile_menu_img img {
       display: block;
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
     }
 
     /* HERO-SECTİON BİTTİ */
@@ -1136,6 +1131,74 @@ body {
     /* ABOUT-SECTİON BİTTİ */
 
     /* OUR-COURSES-SECTİON BAŞLADI */
+    .courses-section {
+      padding-top: 80px;
+      width: 280px;
+    }
+
+    .courses-container {
+      height: 1500px;
+    }
+
+    .courses-header {
+      gap: 20px;
+      flex-direction: column;
+      
+    }
+
+    .courses-head {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 1.14em;
+      letter-spacing: -0.04em;
+    }
+
+    .course-block {
+      margin-top: 40px;
+      flex-direction: column;
+      width: 260px;
+      margin: 0 auto;
+      margin-top: 40px;
+      
+    }
+    .course-card {
+      width: 260px;
+      height: 308px;
+      
+    }
+
+    .courses-head-text {
+      width: 260px;
+      height: 72px;
+      font-size: 14px;
+    }
+
+    .course-card-text {
+      font-size: 14px;
+    }
+
+    .course-number-area {
+      gap: 180px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .course-card-title {
+      font-size: 32px;
+      width: 230px;
+      margin-bottom: 140px;
+      margin-left: 27px;
+    }
+
+    .course-card-text {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: px;
+      width: 230px;
+      margin-top: 0;
+      margin-left: 27px;
+    }
 
     /* OUR-COURSES-SECTİON BİTTİ */
 
@@ -1149,6 +1212,91 @@ body {
 
     /* REVİEWS-SECTİON BAŞLADI */
 
+    
+
+    .reviews-header {
+      max-width: 320px;
+    }
+    .reviews-block-two {
+      display: none;
+    }
+
+    #reviews-section {
+      background-color: #121212; /* Koyu arka plan rengi */
+      color: #ffffff;
+      font-family: "DM Sans", sans-serif;
+      padding-top: 150px;
+      padding-bottom: 150px;
+
+    }
+
+    .reviews-container {
+      width: 280px;
+      height: 300px;
+    }
+
+    .reviews-head {
+      font-size: 32px;
+margin-left: 20px;
+      font-weight: 500;
+      line-height: 1.12em;
+      letter-spacing: -0.04em;
+    }
+
+    .reviews-cards {
+    }
+
+    .reviews-block {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      width: 280px;
+      height: 265px;
+      border-radius: 12px;
+    }
+
+    .reviews-infostar {
+    display: block;
+  
+    }
+
+    .reviews-info {   
+    }
+
+    .reviews-image {
+    }
+
+    .reviews-info-plus {
+      margin-left: 10px;
+      width: 280px;
+    }
+    .review-personne-name {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .review-personne-status {
+      font-size: 12px;
+      margin: 0;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .reviews-text {
+      
+      font-size: 14px;
+    }
+
+    .review-stars {
+    margin-left: 86px;
+    
+    }
+
+    .review-stars-two {
+   
+    }
+
+    .icon-herostar use {
+      fill: #bea69e;
+    }
+
     /* REVİEWS-SECTİON BİTTİ */
 
     /* FOOTER-SECTİON BAŞLADI */
@@ -1157,17 +1305,15 @@ body {
   }
 }
 
-
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   body {
     /* HEADER BAŞLADI */
 
     .header_nav {
-        display: none;
-      }
+      display: none;
+    }
 
-     .camera_ic {
+    .camera_ic {
       display: none;
     }
     .nav_container {
@@ -1175,7 +1321,6 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      
     }
     .logo-link {
       padding: 20px 17px;
@@ -1183,7 +1328,7 @@ body {
       margin: unset;
       font-size: 16px;
     }
-  
+
     .hamburger-menu {
       display: flex;
       flex-direction: column;
@@ -1201,17 +1346,17 @@ body {
       background-color: #fff;
       border-radius: 2px;
     }
-    
+
     .long {
       width: 30px;
       margin-left: auto;
     }
-    
+
     .short {
       width: 20px;
       margin-left: auto;
     }
-    .sign_button{
+    .sign_button {
       font-weight: 700;
       font-size: 18px;
       line-height: 1.5556;
@@ -1230,13 +1375,13 @@ body {
       gap: 0px;
       flex-shrink: 0;
     }
-    
+
     .sign_button:hover {
       background-color: #121212;
       color: #bea69e;
       border: 1px solid #1d1d1d;
     }
-    
+
     .sign_a {
       font-family: "DM Sans", sans-serif;
       font-weight: 600;
@@ -1249,12 +1394,12 @@ body {
       display: flex;
       flex-wrap: nowrap;
     }
-    
+
     .sign_button:hover .sign_a {
       background-color: #121212;
       color: #bea69e;
     }
-    
+
     .mobile_window {
       position: fixed;
       top: 0;
@@ -1268,7 +1413,7 @@ body {
       justify-content: flex-end;
     }
 
-    .is-close{
+    .is-close {
       display: none;
     }
     .mobile_menu {
@@ -1280,14 +1425,13 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-    
     }
-    
+
     .exit_div {
       display: flex;
       justify-content: flex-end;
     }
-    
+
     .close-btn {
       display: inline-block;
       width: 40px;
@@ -1297,7 +1441,7 @@ body {
       margin-top: 20px;
       margin-right: 32px;
     }
-    
+
     .close-btn::before,
     .close-btn::after {
       content: "";
@@ -1309,15 +1453,15 @@ body {
       background-color: black;
       border-radius: 3px;
     }
-    
+
     .close-btn::before {
       transform: rotate(45deg);
     }
-    
+
     .close-btn::after {
       transform: rotate(-45deg);
     }
-    
+
     .mobile-nav-list {
       list-style-type: none;
       margin-top: 185px;
@@ -1326,7 +1470,7 @@ body {
       gap: 20px;
       padding-left: 64px;
     }
-    
+
     .mobile-nav-item-link {
       text-decoration: none;
       color: #121212;
@@ -1336,21 +1480,20 @@ body {
       color: #121212;
       font-family: "DM Sans", sans-serif;
     }
-    
+
     .mobile-nav-item-link:hover {
       font-weight: 700;
     }
-    
+
     .mobile_menu_img {
       object-fit: cover;
     }
-    
+
     .mobile_menu_img img {
       display: block;
       width: 100%;
       height: 100%;
     }
-     
 
     /* HEADER BİTTİ */
 
@@ -1368,16 +1511,16 @@ body {
     .hero_container {
       padding-bottom: 80px;
     }
-    
+
     .cameramen_cont {
       margin: unset;
     }
-    
+
     .discover_cont {
       margin: unset;
       padding-top: 40px;
     }
-    
+
     .discover_title {
       width: 480px;
       height: 192px;
@@ -1389,7 +1532,7 @@ body {
       letter-spacing: -0.02em;
       color: #fff;
     }
-    
+
     .discover_p {
       margin: unset;
       font-size: 14px;
@@ -1407,7 +1550,7 @@ body {
       font-size: 14px;
       margin-bottom: 40px;
     }
-    
+
     .cameramen_cont {
       display: flex;
       justify-content: center;
@@ -1415,20 +1558,19 @@ body {
       margin-left: 156px;
       width: 393px;
       height: 434px;
-      
     }
-    
+
     .cameramen_cont img {
       width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center 10%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 10%;
     }
 
     /* HERO-SECTİON BİTTİ */
 
     /* MASTER-SECTİON BAŞLADI */
-  
+
     /* MASTER-SECTİON BİTTİ */
 
     /* ABOUT-SECTİON BAŞLADI */
