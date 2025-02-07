@@ -1029,7 +1029,7 @@ body {
       background-color: #1d1d1d;
       margin-left: auto;
       margin-right: auto;
-      width: 280px;
+      max-width: 320px;
       height: 750px;
     }
     .hero_container {
@@ -1283,7 +1283,7 @@ body {
   }
 
   .master {
-    font-size: 20px;
+    font-size: 24px;
     max-width: 335px;
     line-height: 1.14;
     letter-spacing: -0.02em;
@@ -1293,7 +1293,7 @@ body {
 
   /* ABOUT-SECTİON BAŞLADI */
   .kamera-img {
-    width: 335px;
+    max-width: 320px;
     height: 209px;
     overflow: hidden;
   }
@@ -1359,7 +1359,7 @@ body {
     margin: 0 auto;
   }
   .course-card {
-    width: 335px;
+    max-width: 320px;
     height: 398px;
     line-height: 1.28;
     letter-spacing: -0.02em;
@@ -1444,16 +1444,16 @@ body {
       gap: 8px;
     }
     .input-prop {
-      max-width: 335px;
+      max-width: 320px;
       height: 46px;
     }
     .input-group .message {
-      max-width: 335px;
+      max-width: 320px;
       height: 112px;
     }
     .send-button {
       
-      width: 335px;
+      max-width: 320px;
       height: 48px;
       font-size: 16px;
       line-height: 1.25em;
