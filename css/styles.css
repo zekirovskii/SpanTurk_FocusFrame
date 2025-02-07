@@ -1176,8 +1176,6 @@ body {
     }
 
 
-    }
-
     .close-btn::before,
     .close-btn::after {
       content: "";
