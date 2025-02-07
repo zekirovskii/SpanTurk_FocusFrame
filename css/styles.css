@@ -813,6 +813,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 60px;
+  
 }
 .footer-social-media-links {
   display: flex;
@@ -835,6 +836,8 @@ body {
   flex-direction: column;
   gap: 20px;
   margin-top: 0;
+  font-size: 14px;
+
 }
 
 .footer-en-alt-blok {
@@ -879,10 +882,12 @@ body {
 }
 .footer-privacy-public {
   font-family: "DM Sans", sans-serif;
-  font-weight: 14px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
   text-decoration: none;
+  line-height: 1.28em;
+
 }
 .footer-en-alt-blok {
   display: flex;
@@ -894,6 +899,9 @@ body {
 .focus-frame-prag {
   margin: 0;
   padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
 }
 
 /* FOOTER-SECTİON BİTTİ */
@@ -1116,6 +1124,7 @@ body {
       display: block;
         width: 100%;
         height: 100%;
+        
     }
 
     /* HERO-SECTİON BİTTİ */
@@ -1133,10 +1142,69 @@ body {
     /* OUR-COURSES-SECTİON BİTTİ */
 
     /* OUR-MENTORS-SECTİON BAŞLADI */
+    .mentors-container{
+      max-width: 335px;
 
+    }
+    .mentor-head{
+      font-size: 28px;
+      line-height: 1.14em
+    }
+    .mentor h3{
+      font-size: 20px;
+      line-height: 1.2em;
+
+    }
+    .mentor p{
+      font-size: 12px;
+      line-height: 1.3em;
+    }
     /* OUR-MENTORS-SECTİON BİTTİ */
 
     /* SIGN-UP-SECTİON BAŞLADI */
+    .sign_up {
+      padding-top: 80px;
+    }
+    .sign_up_container {
+      display: flex;
+      max-width: 335px;
+      margin: 0 auto;
+    }
+    .sign-up-tittle {
+      font-size: 28px;
+      line-height: 1.14em;
+    }
+    .sign_up_desc {
+      font-size: 14px;
+      line-height: 1.28em;
+      max-width: 295px;
+    }  
+    .input-group {
+      gap: 8px;
+    }
+    .input-prop {
+      max-width: 335px;
+      height: 46px;
+    }
+    .input-group .message {
+      max-width: 335px;
+      height: 112px;
+    }
+    .send-button {
+      
+      width: 335px;
+      height: 48px;
+      font-size: 16px;
+      line-height: 1.25em;
+    }
+   
+    .alt-metin {
+      font-size: 12px;
+      line-height: 1.33em;
+    }
+    .camera-group {
+      display: none;
+    }
 
     /* SIGN-UP-SECTİON BİTTİ */
 
@@ -1145,6 +1213,61 @@ body {
     /* REVİEWS-SECTİON BİTTİ */
 
     /* FOOTER-SECTİON BAŞLADI */
+    .footer-container {
+      flex-direction: column;
+      max-width: 335px;
+      gap: 40px;
+
+    }
+    .footer-orta-blok {
+      max-width: 214px;
+      
+      gap: 40px;
+
+    }
+    .footer-social-media-links {
+      gap: 14px;
+      line-height: 1.30em;
+
+    }
+    .nav-list {
+      gap: 14px;
+      line-height: 1.30em;
+      padding-left: 0;
+
+    }
+    .footer-input-email {
+      width: 267px;
+
+    }
+    .footer-input-email:focus-within {
+      width: 267px;
+    }
+    .footer-privacy-public {
+      font-size: 12px;
+      line-height: 1.33em;
+    }
+    .footer-en-alt-blok {
+      max-width: 335px;
+      gap: 72px;
+      padding-bottom: 20px;
+      padding-top: 40px;
+
+
+    }
+    .focus-frame-prag {
+      font-size: 12px;
+      line-height: 1.33em;
+    }
+    
+
+
+
+
+    
+    
+    
+
 
     /* FOOTER-SECTİON BİTTİ */
   }
@@ -1182,11 +1305,25 @@ body {
     /* OUR-COURSES-SECTİON BİTTİ */
 
     /* OUR-MENTORS-SECTİON BAŞLADI */
+    .mentors-container{
+      max-width: 704px;
+      
+    }
+    .mentor-head{
+      padding-left: 32px;
+    }
 
+    
     /* OUR-MENTORS-SECTİON BİTTİ */
 
     /* SIGN-UP-SECTİON BAŞLADI */
-
+    .sign_up_container {
+      padding-left: 32px;
+      max-width: 704px;
+    }
+    .camera-group {
+      display: none;
+    }
     /* SIGN-UP-SECTİON BİTTİ */
 
     /* REVİEWS-SECTİON BAŞLADI */
@@ -1194,6 +1331,51 @@ body {
     /* REVİEWS-SECTİON BİTTİ */
 
     /* FOOTER-SECTİON BAŞLADI */
+    .footer-container {
+      
+      max-width: 704px;
+      gap: 48px;
+
+    }
+    .footer-sol-blok {
+      gap: 25px;
+    }
+    .footer-logo{
+      font-size: 16px;
+    }
+    
+    .footer-adress-list {
+      width: 152px;
+      margin: 0;
+    }
+    
+    .footer-orta-blok {
+      gap: 25px;
+    }
+    .orta-blok-links {
+    line-height: 1.28em;
+    font-size: 14px;
+    }
+    .footer-social-media-links {
+      gap: 14px;
+    }
+    .nav-list {
+      padding: 0;
+      gap: 14px;
+      margin: 0;
+    }
+    .footer-input-email {
+      width: 178px;
+    }
+    .footer-input {
+      gap: 8px;
+    }
+    .footer-en-alt-blok {
+      max-width: 704px;
+      padding-top: 74px;
+
+    }
+
 
     /* FOOTER-SECTİON BİTTİ */
   }
