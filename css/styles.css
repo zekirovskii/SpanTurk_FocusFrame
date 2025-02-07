@@ -82,7 +82,7 @@ body {
   height: 60px;
   background: #fff;
 }
-.sign_button:hover{
+.sign_button:hover {
   background-color: #121212;
   color: #bea69e;
   border: 1px solid #1d1d1d;
@@ -98,7 +98,7 @@ body {
   background: #fff;
   text-decoration: none;
 }
-.sign_button:hover .sign_a{
+.sign_button:hover .sign_a {
   background-color: #121212;
   color: #bea69e;
 }
@@ -340,7 +340,6 @@ body {
 /* ABOUT-SECTİON BİTTİ */
 
 /* OUR-COURSES-SECTİON BAŞLADI */
-
 .courses-container {
   background-color: #121212; /* Koyu arka plan rengi */
   color: #ffffff;
@@ -360,6 +359,7 @@ body {
   font-weight: 500;
   line-height: 1.12em;
   letter-spacing: -0.04em;
+  text-align: start;
 }
 
 .courses-span {
@@ -376,6 +376,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
+  
 }
 
 .course-card {
@@ -412,6 +413,11 @@ body {
   border-radius: 50%;
   width: 32px;
   height: 32px;
+}
+
+.course-icon:hover {
+  background-color: #c3a18a;
+  cursor: pointer;
 }
 
 .course-card-title {
@@ -497,7 +503,6 @@ body {
   color: #ffffff;
   padding-top: 150px;
   font-family: "DM Sans", sans-serif;
-  
 }
 .sign_up_container {
   display: flex;
@@ -594,10 +599,10 @@ body {
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 1);
 }
-.send-button-area:hover{
+.send-button-area:hover {
   background-color: #121212;
 }
-.send-button-area:hover .send-button{
+.send-button-area:hover .send-button {
   background-color: #121212;
   color: #bea69e;
   border: 1px solid #1d1d1d;
@@ -651,14 +656,16 @@ body {
   margin-top: 139px;
   margin-bottom: 126px;
   transform: translate(24%);
-
 }
 
 /* SIGN-UP-SECTİON BİTTİ */
 
 
+/* REVİEWS-SECTİON BAŞLADI */
+
 
 /* REVİEWS-SECTİON BAŞLADI */
+
 
 #reviews-section {
   background-color: #121212; /* Koyu arka plan rengi */
@@ -666,6 +673,7 @@ body {
   font-family: "DM Sans", sans-serif;
   padding-top: 150px;
   padding-bottom: 150px;
+
 }
 
 .reviews-container {
@@ -673,7 +681,6 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-
   max-width: 1240px;
 }
 
@@ -689,6 +696,43 @@ body {
   letter-spacing: -0.04em;
 }
 
+.reviews-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1280px;
+}
+
+.reviews-block,
+.reviews-block-two {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 610px;
+  border-radius: 12px;
+}
+
+
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.reviews-header {
+  max-width: 1240px;
+}
+
+.reviews-head {
+  font-size: 48px;
+  text-align: start;
+  font-weight: 500;
+  line-height: 1.12em;
+  letter-spacing: -0.04em;
+}
 
 .reviews-cards {
   display: flex;
@@ -698,11 +742,13 @@ body {
   max-width: 1280px;
 }
 
-.reviews-block {
+.reviews-block,
+.reviews-block-two {
   border: 1px solid rgba(255, 255, 255, 0.2);
   max-width: 610px;
   border-radius: 12px;
 }
+
 
 .reviews-infostar {
   display: flex;
@@ -748,10 +794,19 @@ body {
   gap: 4px;
 }
 
+
 .review-stars-two {
   display: flex;
   gap: 4px;
 }
+
+
+
+.review-stars-two {
+  display: flex;
+  gap: 4px;
+}
+
 
 .icon-herostar use {
   fill: #bea69e;
@@ -875,7 +930,7 @@ body {
   color: #fff;
   font-family: "DM Sans", sans-serif;
 }
-.footer-go-button:hover{
+.footer-go-button:hover {
   background-color: #121212;
   color: #bea69e;
   border: 1px solid #1d1d1d;
@@ -1049,9 +1104,11 @@ body {
       display: flex;
       justify-content: flex-end;
     }
+    /* -------Menu açıp kapatmak için--------*/
     .is-close {
       display: none;
     }
+    /* -------Menu açıp kapatmak için--------*/
     .mobile_menu {
       width: 200px;
       position: fixed;
@@ -1061,9 +1118,8 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-
     }
-    .exit_div{
+    .exit_div {
       display: flex;
       justify-content: flex-end;
     }
@@ -1075,8 +1131,9 @@ body {
       cursor: pointer;
       margin-top: 15px;
       margin-right: 20px;
+
     }
-    
+
     .close-btn::before,
     .close-btn::after {
       content: "";
@@ -1088,16 +1145,16 @@ body {
       background-color: black;
       border-radius: 3px;
     }
-    
+
     .close-btn::before {
       transform: rotate(45deg);
     }
-    
+
     .close-btn::after {
       transform: rotate(-45deg);
     }
-    
-    .mobile-nav-list{
+
+    .mobile-nav-list {
       list-style-type: none;
       margin-top: 100px;
       display: flex;
@@ -1105,7 +1162,7 @@ body {
       gap: 20px;
       padding-left: 20px;
     }
-    .mobile-nav-item-link{
+    .mobile-nav-item-link {
       text-decoration: none;
       color: #121212;
       font-weight: 400;
@@ -1114,30 +1171,199 @@ body {
       color: #121212;
       font-family: "DM Sans", sans-serif;
     }
-    .mobile-nav-item-link:hover{
+    .mobile-nav-item-link:hover {
       font-weight: 700;
     }
-    .mobile_menu_img{
-        object-fit: cover;
+    .mobile_menu_img {
+      object-fit: cover;
     }
-    .mobile_menu_img img{
+    .mobile_menu_img img {
       display: block;
+
         width: 100%;
         height: 100%;
         
+
+      
     }
+
+
+    .close-btn::before,
+    .close-btn::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: black;
+      border-radius: 3px;
+
+    }
+
+    .close-btn::before {
+      transform: rotate(45deg);
+    }
+
+    .close-btn::after {
+      transform: rotate(-45deg);
+    }
+
+    .mobile-nav-list {
+      list-style-type: none;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 20px;
+    }
+    .mobile-nav-item-link {
+      text-decoration: none;
+      color: #121212;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #121212;
+      font-family: "DM Sans", sans-serif;
+    }
+    .mobile-nav-item-link:hover {
+      font-weight: 700;
+    }
+    .mobile_menu_img {
+      object-fit: cover;
+    }
+    .mobile_menu_img img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
 
     /* HERO-SECTİON BİTTİ */
 
     /* MASTER-SECTİON BAŞLADI */
+    .skill-mobile-span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
+    .master{
+      font-size: 20px;
+      max-width: 335px;
+      line-height: 1.14;
+      letter-spacing: -0.02em;
+    }
+      
     /* MASTER-SECTİON BİTTİ */
 
     /* ABOUT-SECTİON BAŞLADI */
+    .kamera-img{
+      width: 335px;
+      height: 209px;
+      overflow: hidden;
+    }
+    .about-us-title{
+      font-size: 28px;
+      line-height: 1.14;
+      letter-spacing: -0.04em;
+    }
 
+    .about-us-kamera
+    { flex-direction: column;
+      gap: 40px;
+    }
+    .about-us-container{
+      max-width: 335px;
+      padding-top: 80px;
+
+    }
+    
+    .kamera-paragraf{
+      flex: 1 1 100%;
+     font-size: 14px;
+     letter-spacing: -0.02em;
+     line-height: 1.285 ;
+     width: calc(100% - 20px);
+     gap: 20px;
+     flex-wrap: wrap;
+    }
+    
     /* ABOUT-SECTİON BİTTİ */
 
     /* OUR-COURSES-SECTİON BAŞLADI */
+
+   
+
+    .courses-section {
+      padding-top: 80px;
+      width: 280px;
+    }
+
+    .courses-container {
+      height: 1500px;
+    }
+
+    .courses-header {
+      gap: 20px;
+      flex-direction: column;
+      
+    }
+
+    .courses-head {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 1.14em;
+      letter-spacing: -0.04em;
+    }
+
+    .course-block {
+      margin-top: 40px;
+      flex-direction: column;
+      width: 260px;
+      margin: 0 auto;
+      margin-top: 40px;
+      
+    }
+    .course-card {
+      width: 260px;
+      height: 308px;
+      
+    }
+
+    .courses-head-text {
+      width: 260px;
+      height: 72px;
+      font-size: 14px;
+    }
+
+    .course-card-text {
+      font-size: 14px;
+    }
+
+    .course-number-area {
+      gap: 180px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .course-card-title {
+      font-size: 32px;
+      width: 230px;
+      margin-bottom: 140px;
+      margin-left: 27px;
+    }
+
+    .course-card-text {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: px;
+      width: 230px;
+      margin-top: 0;
+      margin-left: 27px;
+    }
+
 
     /* OUR-COURSES-SECTİON BİTTİ */
 
@@ -1210,9 +1436,95 @@ body {
 
     /* REVİEWS-SECTİON BAŞLADI */
 
+    
+
+    .reviews-header {
+      max-width: 320px;
+    }
+    .reviews-block-two {
+      display: none;
+    }
+
+    #reviews-section {
+      background-color: #121212; /* Koyu arka plan rengi */
+      color: #ffffff;
+      font-family: "DM Sans", sans-serif;
+      padding-top: 150px;
+      padding-bottom: 150px;
+
+    }
+
+    .reviews-container {
+      width: 280px;
+      height: 300px;
+    }
+
+    .reviews-head {
+      font-size: 32px;
+      margin-left: 20px;
+      font-weight: 500;
+      line-height: 1.12em;
+      letter-spacing: -0.04em;
+    }
+
+    .reviews-cards {
+    }
+
+    .reviews-block {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      width: 280px;
+      height: 265px;
+      border-radius: 12px;
+    }
+
+    .reviews-infostar {
+    display: block;
+  
+    }
+
+    .reviews-info {   
+    }
+
+    .reviews-image {
+    }
+
+    .reviews-info-plus {
+      margin-left: 10px;
+      width: 280px;
+    }
+    .review-personne-name {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .review-personne-status {
+      font-size: 12px;
+      margin: 0;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .reviews-text {
+      
+      font-size: 14px;
+    }
+
+    .review-stars {
+    margin-left: 86px;
+    
+    }
+
+    .review-stars-two {
+   
+    }
+
+    .icon-herostar use {
+      fill: #bea69e;
+    }
+
     /* REVİEWS-SECTİON BİTTİ */
 
     /* FOOTER-SECTİON BAŞLADI */
+
     .footer-container {
       flex-direction: column;
       max-width: 335px;
@@ -1221,8 +1533,7 @@ body {
     }
     .footer-orta-blok {
       max-width: 214px;
-      
-      gap: 40px;
+       gap: 40px;
 
     }
     .footer-social-media-links {
@@ -1260,44 +1571,321 @@ body {
       line-height: 1.33em;
     }
     
-
-
-
-
-    
-    
-    
-
-
     /* FOOTER-SECTİON BİTTİ */
   }
 }
 
-
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   body {
     /* HEADER BAŞLADI */
-    .camera_ic {
+
+    .header_nav {
       display: none;
     }
 
-    .mobile_window {
+    .camera_ic {
       display: none;
+    }
+    .nav_container {
+      margin: 20px 14px 40px 32px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .logo-link {
+      padding: 20px 17px;
+      padding-right: 0px;
+      margin: unset;
+      font-size: 16px;
+    }
+
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      width: 32px;
+      height: 22px;
+      margin-left: 14px;
+      margin-top: 8px;
+    }
+    .hamburger-menu span {
+      display: block;
+      height: 2px;
+      background-color: #fff;
+      border-radius: 2px;
+    }
+
+    .long {
+      width: 30px;
+      margin-left: auto;
+    }
+
+    .short {
+      width: 20px;
+      margin-left: auto;
+    }
+    .sign_button {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.5556;
+      text-transform: uppercase;
+      color: #121212;
+      width: 187px;
+      height: 60px;
+      background: #fff;
+      border-radius: 12px;
+      margin-right: 31px;
+      padding: 16px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 0px;
+      flex-shrink: 0;
+    }
+
+    .sign_button:hover {
+      background-color: #121212;
+      color: #bea69e;
+      border: 1px solid #1d1d1d;
+    }
+
+    .sign_a {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 1.55556;
+      text-transform: uppercase;
+      color: #121212;
+      background: #fff;
+      text-decoration: none;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .sign_button:hover .sign_a {
+      background-color: #121212;
+      color: #bea69e;
+    }
+
+    .mobile_window {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100%;
+      background-color: rgba(35, 35, 36, 0.4);
+      transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .is-close {
+      display: none;
+    }
+    .mobile_menu {
+      width: 480px;
+      position: fixed;
+      margin-left: auto;
+      height: 100vh;
+      background-color: #bea69e;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .exit_div {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .close-btn {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      position: relative;
+      cursor: pointer;
+      margin-top: 20px;
+      margin-right: 32px;
+    }
+
+    .close-btn::before,
+    .close-btn::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: black;
+      border-radius: 3px;
+    }
+
+    .close-btn::before {
+      transform: rotate(45deg);
+    }
+
+    .close-btn::after {
+      transform: rotate(-45deg);
+    }
+
+    .mobile-nav-list {
+      list-style-type: none;
+      margin-top: 185px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 64px;
+    }
+
+    .mobile-nav-item-link {
+      text-decoration: none;
+      color: #121212;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #121212;
+      font-family: "DM Sans", sans-serif;
+    }
+
+    .mobile-nav-item-link:hover {
+      font-weight: 700;
+    }
+
+    .mobile_menu_img {
+      object-fit: cover;
+    }
+
+    .mobile_menu_img img {
+      display: block;
+      width: 100%;
+      height: 100%;
     }
 
     /* HEADER BİTTİ */
 
     /* HERO-SECTİON BAŞLADI */
+    .hero_section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #1d1d1d;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 700px;
+      height: auto;
+    }
+    .hero_container {
+      padding-bottom: 80px;
+    }
+
+    .cameramen_cont {
+      margin: unset;
+    }
+
+    .discover_cont {
+      margin: unset;
+      padding-top: 40px;
+    }
+
+    .discover_title {
+      width: 480px;
+      height: 192px;
+      margin-left: 32px;
+      margin-top: 24px;
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: #fff;
+    }
+
+    .discover_p {
+      margin: unset;
+      font-size: 14px;
+      width: 418px;
+      margin-left: 32px;
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    .happy_cont {
+      margin-left: 20px;
+      margin-right: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    .cameramen_cont {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 156px;
+      width: 393px;
+      height: 434px;
+    }
+
+    .cameramen_cont img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 10%;
+    }
 
     /* HERO-SECTİON BİTTİ */
 
     /* MASTER-SECTİON BAŞLADI */
-  
+
+    .skill-mobile-span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .master{
+      font-size: 40px;
+      max-width: 704px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+      
+
+
+
     /* MASTER-SECTİON BİTTİ */
 
     /* ABOUT-SECTİON BAŞLADI */
+    .kamera-img{
+      width: 704px;
+      height: 340px;
+      overflow: hidden;
+    }
 
+    .about-us-kamera
+    { flex-direction: column;
+      gap: 50px;
+     align-items: flex-start;
+    }
+    .about-us-container{
+      max-width: 704px;
+      padding-top: 80px;
+    }
+    
+    .kamera-paragraf{
+     font-size: 16px;
+     letter-spacing: -0.02em;
+     line-height: 1.25 ;
+     gap: 40px;
+     max-width: 600px;
+
+    
+    }
+    
     /* ABOUT-SECTİON BİTTİ */
 
     /* OUR-COURSES-SECTİON BAŞLADI */
@@ -1384,7 +1972,7 @@ body {
 @media screen and (min-width: 1280px) {
   body {
     /* HEADER BAŞLADI */
-    .camera_ic {
+    .cam_menu {
       display: none;
     }
 
