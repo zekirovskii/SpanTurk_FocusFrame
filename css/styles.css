@@ -1188,11 +1188,7 @@ body {
   .close-btn::before {
     transform: rotate(45deg);
   }
-        width: 100%;
-        height: 100%;
-
-    }
-
+        
 
     .close-btn::before,
     .close-btn::after {
@@ -1525,9 +1521,6 @@ body {
     margin: 4px;
   }
 
-  .reviews-image {
-  }
-
   .reviews-info-plus {
     margin-left: 10px;
     width: 280px;
@@ -1552,9 +1545,6 @@ body {
 
   .review-stars {
     margin-left: 65px;
-  }
-
-  .review-stars-two {
   }
 
   .icon-herostar use {
@@ -2113,8 +2103,6 @@ body {
       padding-top: 0;
     }
 
-    .review-stars-two {
-    }
 
     .icon-herostar use {
       fill: #bea69e;
